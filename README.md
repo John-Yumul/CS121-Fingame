@@ -55,8 +55,15 @@
 <ul>
   <li><b>Balance</b> - Monetary value a user can earn and spend in-game</li>
   <li><b>Well Being Stats</b> - Needs to be maintained every week otherwise will result in losing condition(Energy, Health, Fun)</li>
+  <li><b>Status Determination</b> - Based on well-being stat balance</li>
   <li><b>Misc Activities in game</b> - More to be added! </li>
   <li><b>Probability-based outcomes in gameplay</b></li>
   <li><b>Common error handling</b></li>
 </ul>
+
+
+
+
+![image](https://user-images.githubusercontent.com/120115162/228290211-739bd4a3-8d2b-470b-8993-9f949f60b8d6.png)
+
 
