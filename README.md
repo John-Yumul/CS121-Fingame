@@ -29,7 +29,7 @@
 
  ## 🌎Purpose 
 
-<img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/08/UNSustainableDevelopmentGoals_Brand-01.png"/>
+<img src="https://i.pinimg.com/originals/ba/b1/84/bab184253245941e624b7313a8477cb5.gif"/>
 
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled <strong>Fingame</strong> was created in pursuit of these specific objectives. 📝</p> 
 
