@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/65653238/212522749-e67eeb54-c942-4e35-a768-8374e61a5237.png"/>
+  <img src="https://raw.githubusercontent.com/switlaber69/CS121-Fingame/3707588e29c543cbef3ef0be85cfd09e955a7cb3/fingame%20logo.png?token=A4UM7WSY4JPMEO4ZNOCNGPTEELXT4"/>
   
 Greetings Dr. Montalbo! It is I, switlaber69
 
