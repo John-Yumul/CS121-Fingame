@@ -9,13 +9,16 @@
 - [About 💡](#about---)
 - [Purpose 🌎](#purpose------)
 	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+	
  ## About 💡
   <p> 	Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. </p>
 	<p> Role-playing game (RPG) allows people to dictate their own story. Players go through story missions and frequently numerous side adventures, gaining experience for their character or group of characters that enhances a variety of traits and skills. </p>
   
    <p> This financial management role-playing game's primary goal is to instruct players on how to handle their money wisely. As the game begins, players will be given a specified amount of money and are given tasks that will challenge their critical thinking and decision-making skills. Players are entrusted with making a variety of financial options, including managing a budget, investing in stocks or mutual funds, and handling debt. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. </p>
 
-  
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
  ## Purpose 🌎
 
 
