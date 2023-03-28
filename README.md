@@ -34,13 +34,8 @@
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled <strong>Fingame</strong> was created in pursuit of these specific objectives. 📝</p> 
 
 <table>
-	<colgroup>
-       		<col span="1" style="width: 15%;">
-       		<col span="1" style="width: 70%;">
-       		<col span="1" style="width: 15%;">
-    	</colgroup>
 	<tr>
-		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-04.jpg"/></th>
+		<th style="width:50%"><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-04.jpg"/></th>
 		<th>SDG 4: Quality Education</th>
 		<td><strong>Target 4.7:</strong> By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</td>
 	</tr>
@@ -49,11 +44,6 @@
 <p> Firstly, in congruence with Indicator 4.7 of the SDG entitled “Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,” it sights that all learners acquire the essential knowledge and expertise necessary to achieve sustainable development. 🏆</p>
 
 <table>
-	<colgroup>
-       		<col span="1" style="width: 15%;">
-       		<col span="1" style="width: 70%;">
-       		<col span="1" style="width: 15%;">
-    	</colgroup>
 	<tr>
 		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-08.jpg"/></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
