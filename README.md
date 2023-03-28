@@ -25,7 +25,7 @@ Greetings Dr. Montalbo! It is I, switlaber69
 	<tr>
 		<th><h1>🏫</h1></th>
 		<th>SDG 4: Quality Education</th>
-		<td>Target 4.7: By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</td>
+		<td><th>Target 4.7:</th> By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</td>
 	</tr>
 </table>
 
