@@ -8,12 +8,12 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Table of Contents	
-- [About 💡](#about---)
-- [Purpose 🌎](#purpose------)
+- [💡About ](#about---)
+- [🌎Purpose ](#purpose------)
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
- ## About 💡
+ ## 💡About 
   <p> 	Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. </p>
 	<p> Role-playing game (RPG) allows people to dictate their own story. Players go through story missions and frequently numerous side adventures, gaining experience for their character or group of characters that enhances a variety of traits and skills. </p>
   
@@ -21,7 +21,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
- ## Purpose 🌎
+ ## 🌎Purpose 
 
 
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled Fingame was created in pursuit of these specific objectives. </p> 
@@ -50,4 +50,10 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Features 🚀
+## 🚀Features 
+
+<ul>
+  <li><b>Balance</b> - Monetary value a user can earn and spend in-game</li>
+  <li><b>Well Being Stats</b> - Needs to be maintained every week(Energy, Health, Fun)</li>
+</ul>
+
