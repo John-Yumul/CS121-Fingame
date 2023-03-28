@@ -2,8 +2,8 @@
 <p align="center">
   <img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
   
-> An investment in knowledge pays the best interest.
-> -- Benjamin Franklin <br>
+Greetings Dr. Montalbo! It is I, switlaber69
+  
  
 ## Table of Contents	
 - [About 💡](#about---)
@@ -24,7 +24,7 @@
 <table>
 	<tr>
 		<th>SDG 4: Quality Education</th>
-		<p>Target 4.7: By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development </p>
+		Target 4.7: By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development
 	</tr>
 </table>
 
