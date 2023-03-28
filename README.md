@@ -7,7 +7,7 @@ Greetings Dr. Montalbo! It is I, switlaber69
  
 ## Table of Contents	
 - [About 💡](#about---)
-- [Significance & Purpose/SDG🇺🇳🌎](#significance---purpose-sdg------)
+- [Purpose 🌎](#significance---purpose-sdg------)
 	
  ## About 💡
   <p> 	Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. </p>
