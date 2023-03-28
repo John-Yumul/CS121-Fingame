@@ -10,12 +10,11 @@
 ## Table of Contents	
 - [💡About ](#about---)
 - [🌎Purpose ](#purpose------)
+- [🚀Features ](#features-----)
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
  ## 💡About 
-	
-<img src="https://sdgs.un.org/sites/default/files/2020-07/buildings.jpg" style="float: right">
 
 <p> Whether we realize it or not, managing our finances is essential to living. 😀💵</p>
 	
