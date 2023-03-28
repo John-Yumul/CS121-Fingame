@@ -33,6 +33,7 @@ Greetings Dr. Montalbo! It is I, switlaber69
 
 <table>
 	<tr>
+		<th><h1>💵</h1></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
 		<td>Target 8.2: Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labor-intensive sectors</td>
 	</tr>
