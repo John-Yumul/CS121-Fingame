@@ -1,6 +1,12 @@
 
 <p align="center">
   <img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
+
+<p align="center"> Banaag, Vince Clyde S.
+<br>Manguit, Iemerie Jom C.
+<br>Sotelo, Bea Czarina S.
+<br>Yumul, John Angelo M. </p>
+
   
 >  "An investment in knowledge pays the best interest." 
 > -- Benjamin Franklin <br>
@@ -8,7 +14,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Table of Contents	
-- [💡About ](#about---)
+- [💡About ](#about)
 - [🌎Purpose ](#purpose------)
 - [🚀Features ](#features-----)
 	
@@ -62,10 +68,11 @@
 ## 🚀Features 
 
 <ul>
-  <li><b>Balance</b> - Monetary value a user can earn and spend in-game</li>
-  <li><b>Well Being Stats</b> - Needs to be maintained every week otherwise will result in losing condition(Energy, Health, Fun)</li>
-  <li><b>Misc Activities in game</b> - More to be added! </li>
-  <li><b>Probability-based outcomes in gameplay</b></li>
-  <li><b>Common error handling</b></li>
+  <li>🏦 <b>Balance</b> - Monetary value a user can earn, spend, and borrow in-game</li>
+  <li>💊 <b>Well-Being Stats</b> - Aspects like energy, health, and fun need to be maintained every week otherwise will result in losing condition</li>
+  <li>💰 <b>Investments</b> - User learns to handle stocks, cryptocurrency, mutual funds, health insurance, and more with varying risks and perks </li>
+  <li>🍴 <b>In-Game Miscellaneous Activities</b> - User can expend the in-game currency for food, leisure, exercise, and transportation which will affect well-being stats.</li>
+  <li>❔ <b>Probability-Based Outcomes in Gameplay</b> - Financial decisions of a user affects well-being stats </li>
+  <li>❌ <b>Common Error Handling</b> - Prevents logical errors and handles incorrect user input to prevent program termination and failure.</li>
 </ul>
 
