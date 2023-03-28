@@ -1,11 +1,15 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/switlaber69/CS121-Fingame/3707588e29c543cbef3ef0be85cfd09e955a7cb3/fingame%20logo.png?token=A4UM7WSY4JPMEO4ZNOCNGPTEELXT4](https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
+  <img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
   
 Greetings Dr. Montalbo! It is I, switlaber69
   
-  
- ## About
+ 
+## Table of Contents	
+- [About 💡](#about---)
+- [Significance & Purpose/SDG🇺🇳🌎](#significance---purpose-sdg------)
+	
+ ## About 💡
   <p> 	Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. </p>
 	<p> Role-playing game (RPG) allows people to dictate their own story. Players go through story missions and frequently numerous side adventures, gaining experience for their character or group of characters that enhances a variety of traits and skills. </p>
   
