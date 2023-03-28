@@ -15,8 +15,8 @@
 
 ## Table of Contents	
 - [💡About ](#about)
-- [🌎Purpose ](#purpose------)
-- [🚀Features ](#features-----)
+- [🌎Purpose ](#purpose)
+- [🚀Features ](#features)
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
