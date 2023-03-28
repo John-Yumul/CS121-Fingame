@@ -14,10 +14,14 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
  ## 💡About 
-  <p> 	Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. </p>
-	<p> Role-playing game (RPG) allows people to dictate their own story. Players go through story missions and frequently numerous side adventures, gaining experience for their character or group of characters that enhances a variety of traits and skills. </p>
+
+<p> Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. 🤔</p>
+
+<p> Role-playing game (RPG) allows people to dictate their own story. Players go through story missions and frequently numerous side adventures, gaining experience for their character or group of characters that enhances a variety of traits and skills. 🎮</p>
   
-   <p> This financial management role-playing game's primary goal is to instruct players on how to handle their money wisely. As the game begins, players will be given a specified amount of money and are given tasks that will challenge their critical thinking and decision-making skills. Players are entrusted with making a variety of financial options, including managing a budget, investing in stocks or mutual funds, and handling debt. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. </p>
+<p> This financial management role-playing game's primary goal is to instruct players on how to handle their money wisely. As the game begins, players will be given a specified amount of money and are given tasks that will challenge their critical thinking and decision-making skills. 💭</p>
+	
+<p> Players are also entrusted with making a variety of financial options, including managing a budget, investing in stocks or mutual funds, and handling debt. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. 👌😮</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -40,7 +44,7 @@
 	<tr>
 		<th><h1>💵</h1></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
-		<td>Target 8.2: Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labor-intensive sectors</td>
+		<td><strong>Target 8.2:</strong> Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labor-intensive sectors</td>
 	</tr>
 </table>
 
@@ -55,15 +59,8 @@
 <ul>
   <li><b>Balance</b> - Monetary value a user can earn and spend in-game</li>
   <li><b>Well Being Stats</b> - Needs to be maintained every week otherwise will result in losing condition(Energy, Health, Fun)</li>
-  <li><b>Status Determination</b> - Based on well-being stat balance</li>
   <li><b>Misc Activities in game</b> - More to be added! </li>
   <li><b>Probability-based outcomes in gameplay</b></li>
   <li><b>Common error handling</b></li>
 </ul>
-
-
-
-
-![image](https://user-images.githubusercontent.com/120115162/228290211-739bd4a3-8d2b-470b-8993-9f949f60b8d6.png)
-
 
