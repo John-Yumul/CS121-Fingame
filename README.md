@@ -8,16 +8,16 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Table of Contents	
-- [💡About](#--about)
-- [🌎Purpose](#--purpose)
-- [🚀Features](#--features)
-- [👀Gameplay Preview](#--gameplay-preview)
+- [💡About ](#about---)
+- [🌎Purpose ](#purpose------)
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
  ## 💡About 
 
-<p> Whether we realize it or not, managing our finances is essential to living. Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. 🤔</p>
+<p> Whether we realize it or not, managing our finances is essential to living. 😀</p>
+	
+<p> Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. 🤔</p>
 
 <p> Role-playing game (RPG) allows people to dictate their own story. Players go through story missions and frequently numerous side adventures, gaining experience for their character or group of characters that enhances a variety of traits and skills. 🎮</p>
   
@@ -61,14 +61,8 @@
 <ul>
   <li><b>Balance</b> - Monetary value a user can earn and spend in-game</li>
   <li><b>Well Being Stats</b> - Needs to be maintained every week otherwise will result in losing condition(Energy, Health, Fun)</li>
-  <li><b>Status Determination</b> - Based on Well-being stats</li>
   <li><b>Misc Activities in game</b> - More to be added! </li>
   <li><b>Probability-based outcomes in gameplay</b></li>
   <li><b>Common error handling</b></li>
 </ul>
-
- ## 👀Gameplay Preview
-
-![image](https://user-images.githubusercontent.com/120115162/228291165-00afbe9b-cf03-4727-a266-4e82e6d690cf.png)
-
 
