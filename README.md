@@ -11,15 +11,14 @@
 >  "An investment in knowledge pays the best interest." 
 > -- Benjamin Franklin <br>
 	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## Table of Contents	
 - [💡About ](#about)
 - [🌎Purpose ](#purpose)
 - [🚀Features ](#features)
 - [Sample Gameplay] (#sample_gameplay)
 	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 	
  ## 💡About 
 
@@ -33,8 +32,7 @@
 	
 <p> Players are also entrusted with making a variety of financial options, including managing a budget, investing in stocks or mutual funds, and handling debt. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. 👌😮</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
  ## 🌎Purpose 
 
 <img src="https://i.pinimg.com/originals/ba/b1/84/bab184253245941e624b7313a8477cb5.gif"/>
@@ -64,7 +62,7 @@
 
 <p> Moreover, the creators of the program intend to assist people who desire to learn things in the field of finance, as well as help them in bettering their competency when it comes to ✨decision-making and critical thinking.✨  </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
 ## 🚀Features 
 
@@ -77,9 +75,8 @@
   <li>❌ <b>Common Error Handling</b> - Prevents logical errors and handles incorrect user input to prevent program termination and failure.</li>
 </ul>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
-## 🚀Sample Gameplay
-
-
+## 👀Gameplay Preview
+![image](https://user-images.githubusercontent.com/120115162/228392636-8e7318e0-94f8-4513-8307-83f736b65e2d.png)
 
