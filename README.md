@@ -35,7 +35,7 @@
 
 <table>
 	<tr>
-		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/08/UNSustainableDevelopmentGoals_Brand-01.png"/></th>
+		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-04.jpg"/></th>
 		<th>SDG 4: Quality Education</th>
 		<td><strong>Target 4.7:</strong> By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</td>
 	</tr>
@@ -45,7 +45,7 @@
 
 <table>
 	<tr>
-		<th><h1>💵</h1></th>
+		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-08.jpg"/></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
 		<td><strong>Target 8.2:</strong> Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labor-intensive sectors</td>
 	</tr>
