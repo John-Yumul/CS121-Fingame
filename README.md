@@ -8,8 +8,10 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Table of Contents	
-- [💡About ](#about---)
-- [🌎Purpose ](#purpose------)
+- [💡About](#--about)
+- [🌎Purpose](#--purpose)
+- [🚀Features](#--features)
+- [👀Gameplay Preview](#--gameplay-preview)
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
