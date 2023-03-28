@@ -34,6 +34,11 @@
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled <strong>Fingame</strong> was created in pursuit of these specific objectives. 📝</p> 
 
 <table>
+	<colgroup>
+       		<col span="1" style="width: 15%;">
+       		<col span="1" style="width: 70%;">
+       		<col span="1" style="width: 15%;">
+    	</colgroup>
 	<tr>
 		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-04.jpg"/></th>
 		<th>SDG 4: Quality Education</th>
