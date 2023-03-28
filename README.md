@@ -1,6 +1,8 @@
 
 <p align="center">
   <img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
+	
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMWE4K92sLK8rVTX8NDh2MzYJixfgyw_qh3A&usqp=CAU"/>
   
 >  "An investment in knowledge pays the best interest." 
 > -- Benjamin Franklin <br>
@@ -29,12 +31,13 @@
 
  ## 🌎Purpose 
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMWE4K92sLK8rVTX8NDh2MzYJixfgyw_qh3A&usqp=CAU"/>
 
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled <strong>Fingame</strong> was created in pursuit of these specific objectives. 📝</p> 
 
 <table>
 	<tr>
-		<th><h1>🏫</h1></th>
+		<th><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMWE4K92sLK8rVTX8NDh2MzYJixfgyw_qh3A&usqp=CAU"/></th>
 		<th>SDG 4: Quality Education</th>
 		<td><strong>Target 4.7:</strong> By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</td>
 	</tr>
