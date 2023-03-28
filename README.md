@@ -43,9 +43,9 @@
 
 <p> Firstly, in congruence with Indicator 4.7 of the SDG entitled “Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,” it sights that all learners acquire the essential knowledge and expertise necessary to achieve sustainable development. 🏆</p>
 
+<img src="https://sdg.neda.gov.ph/wp-content/uploads/2022/09/sdg8.gif"/>
 <table>
 	<tr>
-		<th><img src="https://sdg.neda.gov.ph/wp-content/uploads/2022/09/sdg8.gif"/></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
 		<td><strong>Target 8.2:</strong> Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labor-intensive sectors</td>
 	</tr>
