@@ -2,8 +2,8 @@
 <p align="center">
   <img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
   
-Greetings Dr. Montalbo! It is I, switlaber69
-  
+>  "An investment in knowledge pays the best interest." 
+> -- Benjamin Franklin <br>
  
 ## Table of Contents	
 - [About 💡](#about---)
