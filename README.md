@@ -30,7 +30,7 @@
  ## 🌎Purpose 
 
 
-<p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled Fingame was created in pursuit of these specific objectives. </p> 
+<p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled <strong>Fingame</strong> was created in pursuit of these specific objectives. </p> 
 
 <table>
 	<tr>
