@@ -17,6 +17,7 @@
 - [💡About ](#about)
 - [🌎Purpose ](#purpose)
 - [🚀Features ](#features)
+- [Sample Gameplay] (#sample_gameplay)
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
@@ -75,4 +76,10 @@
   <li>❔ <b>Probability-Based Outcomes in Gameplay</b> - Financial decisions of a user affects well-being stats </li>
   <li>❌ <b>Common Error Handling</b> - Prevents logical errors and handles incorrect user input to prevent program termination and failure.</li>
 </ul>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 🚀Sample Gameplay
+
+
 
