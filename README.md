@@ -44,6 +44,11 @@
 <p> Firstly, in congruence with Indicator 4.7 of the SDG entitled “Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,” it sights that all learners acquire the essential knowledge and expertise necessary to achieve sustainable development. 🏆</p>
 
 <table>
+	<colgroup>
+       		<col span="1" style="width: 15%;">
+       		<col span="1" style="width: 70%;">
+       		<col span="1" style="width: 15%;">
+    	</colgroup>
 	<tr>
 		<th><img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2015/05/E_SDG_Icons-08.jpg"/></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
