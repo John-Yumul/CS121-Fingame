@@ -55,5 +55,7 @@
 <ul>
   <li><b>Balance</b> - Monetary value a user can earn and spend in-game</li>
   <li><b>Well Being Stats</b> - Needs to be maintained every week(Energy, Health, Fun)</li>
+  <li><b>Probability-based outcomes in gameplay</b></li>
+  <li><b>Common error handling</b></li>
 </ul>
 
