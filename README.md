@@ -14,8 +14,10 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
  ## 💡About 
+	
+<img src="https://sdgs.un.org/sites/default/files/2020-07/buildings.jpg" style="float: right">
 
-<p> Whether we realize it or not, managing our finances is essential to living. 😀</p>
+<p> Whether we realize it or not, managing our finances is essential to living. 😀💵</p>
 	
 <p> Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. 🤔</p>
 
