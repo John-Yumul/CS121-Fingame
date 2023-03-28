@@ -21,6 +21,13 @@ Greetings Dr. Montalbo! It is I, switlaber69
 
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled Fingame was created in pursuit of these specific objectives. </p> 
 
+<table>
+	<tr>
+		<th>SDG 4: Quality Education</th>
+		<p>Target 4.7: By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development </p>
+	</tr>
+</table>
+
 <p> Firstly, in congruence with Indicator 4.7 of the SDG entitled “Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,” it sights that all learners acquire the essential knowledge and expertise necessary to achieve sustainable development. </p>
 
 
