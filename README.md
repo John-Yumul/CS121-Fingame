@@ -82,10 +82,9 @@
 ## 👀Gameplay Preview
 ![image](https://user-images.githubusercontent.com/120115162/228392636-8e7318e0-94f8-4513-8307-83f736b65e2d.png)
 
-![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
-
 ![image](https://user-images.githubusercontent.com/120115162/228397658-c44230ad-4b29-4bbe-9d1f-ed824a93eb51.png)
 
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## ☎️Contact Us
 [@switlaber69](https://twitter.com/switlaber69) – 22-08532@g.batstate-u.edu.ph
 
