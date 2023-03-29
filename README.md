@@ -16,7 +16,8 @@
 - [💡About ](#about)
 - [🌎Purpose ](#purpose)
 - [🚀Features ](#features)
-- [👀Gameplay Preview] (#gameplay_preview)
+- [👀Gameplay Preview] (#gameplay-preview)
+- [☎️Contact Us] (#contact-us)
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 	
