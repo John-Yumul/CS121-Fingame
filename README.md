@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
+	<img src="https://media.discordapp.net/attachments/767703443141427238/1095386105781690429/People_Dollar_logo_Money_Finances_logo.png"/>
 
 <p align="center"> Banaag, Vince Clyde S.
 <br>Manguit, Iemerie Jom C.
