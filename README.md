@@ -89,10 +89,32 @@
 	<img src="https://user-images.githubusercontent.com/120115162/228397658-c44230ad-4b29-4bbe-9d1f-ed824a93eb51.png"/>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
-## ☎️Contact Us
+## ☎️Meet the Team
 <p align="center">
-		<img src="![image](https://user-images.githubusercontent.com/120115162/231232475-f72f4d53-3823-404a-bc2b-fe6ef749f1a2.png)"/>
-	
+	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
+</p>
+<p>
+Banaag, Vince Clyde S. 
+<ul>
+	<li>PhD in Wishful Thinking (he/him) </li>
+	<li>INTP</li>
+	<li>Gemini</li>
+	<li>https://open.spotify.com/playlist/7FrQlIOYBVCaAYH7CkEmbu?si=KQhCEvdkTpKCkPQWD8aKvQ&utm_source=copy-link</li>
+</ul>
+</p>
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
+</p>
+<p>
+Banaag, Vince Clyde S. 
+<ul>
+	<li>PhD in Wishful Thinking (he/him) </li>
+	<li>INTP</li>
+	<li>Gemini</li>
+	<li>https://open.spotify.com/playlist/7FrQlIOYBVCaAYH7CkEmbu?si=KQhCEvdkTpKCkPQWD8aKvQ&utm_source=copy-link</li>
+</ul>
+</p>
+
 
 [@switlaber69](https://twitter.com/switlaber69) – 22-08532@g.batstate-u.edu.ph
 
