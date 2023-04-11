@@ -36,7 +36,7 @@
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
  ## 🌎Purpose 
 
-<img src="https://i.pinimg.com/originals/ba/b1/84/bab184253245941e624b7313a8477cb5.gif"/>
+<img src="https://drive.google.com/file/d/1LnBcXNDmzM26XQxh2V0OBl_liZo5dFNQ/view?usp=sharing"/>
 
 <p> In utmost accordance with certain Sustainable Development Goals (SDGs) from the United Nations (UN), this Python-based program entitled <strong>Fingame</strong> was created in pursuit of these specific objectives. 📝</p> 
 
