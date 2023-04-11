@@ -61,6 +61,9 @@
 
 <p> Moreover, the creators of the program intend to assist people who desire to learn things in the field of finance, as well as help them in bettering their competency when it comes to ✨decision-making and critical thinking.✨  </p>
 
+<p align="center">
+	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095342230081904761/ezgif.com-video-to-gif.gif?width=750&height=316" width="1080"/>
+
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
 ## 🚀Features 
