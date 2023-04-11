@@ -35,13 +35,14 @@
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
  ## 🌎Purpose 
-
+<style type="text/css">
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+</style>
 
 <img src="https://media.discordapp.net/attachments/1095310400268009495/1095327451191722034/SDG.gif?width=2560&height=1080" class="center"/>
 
