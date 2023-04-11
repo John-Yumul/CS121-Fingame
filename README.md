@@ -42,7 +42,6 @@
 
 <table>
 	<tr>
-		<th><img src="https://media.discordapp.net/attachments/1095310400268009495/1095313856957522030/SDG4.png?width=558&height=558"/></th>
 		<th>SDG 4: Quality Education</th>
 		<td><strong>Target 4.7:</strong> By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</td>
 	</tr>
@@ -53,7 +52,6 @@
 
 <table>
 	<tr>
-		<th><img src="https://media.discordapp.net/attachments/1095310400268009495/1095314212294762566/SDG8.png?width=558&height=558"/></th>
 		<th>SDG 8: Decent Work and Economic Growth</th>
 		<td><strong>Target 8.2:</strong> Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labor-intensive sectors</td>
 	</tr>
