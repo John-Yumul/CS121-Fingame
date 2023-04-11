@@ -69,7 +69,7 @@
 ## 🚀Features 
 	
 <p align="center">
-	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095365094952665138/1_2.gif?width=1325&height=558" width="1080"/>
+	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095367395998183514/ezgif-4-a2ebc072b3.gif?width=1000&height=421" width="1080"/>
 
 <ul>
   <li>🏦 <b>Balance</b> - Monetary value a user can earn, spend, and borrow in-game</li>
