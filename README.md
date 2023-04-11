@@ -1,6 +1,4 @@
-
-<p align="center">
-  <img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
+<img src="https://media.discordapp.net/attachments/767703443141427237/1090272876973785128/fingame_logo.png"/>
 
 <p align="center"> Banaag, Vince Clyde S.
 <br>Manguit, Iemerie Jom C.
@@ -13,7 +11,7 @@
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## Table of Contents	
-- [💡About](#about)
+- [💡About](#--about)
 - [🌎Purpose](#--purpose)
 - [🚀Features](#--features)
 - [👀Gameplay Preview](#--gameplay-preview)
