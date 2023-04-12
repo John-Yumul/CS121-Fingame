@@ -102,19 +102,44 @@ Banaag, Vince Clyde S.
 	<li>https://open.spotify.com/playlist/7FrQlIOYBVCaAYH7CkEmbu?si=KQhCEvdkTpKCkPQWD8aKvQ&utm_source=copy-link</li>
 </ul>
 </p>
+
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
 </p>
 <p>
-Banaag, Vince Clyde S. 
+Manguit, Iemerie Jom C.  
 <ul>
-	<li>PhD in Wishful Thinking (he/him) </li>
-	<li>INTP</li>
-	<li>Gemini</li>
-	<li>https://open.spotify.com/playlist/7FrQlIOYBVCaAYH7CkEmbu?si=KQhCEvdkTpKCkPQWD8aKvQ&utm_source=copy-link</li>
+	<li>Bejeweled Swiftie Innovator (he/him) </li>
+	<li>INTJ</li>
+	<li>Taurus</li>
+	<li>https://open.spotify.com/playlist/6Pcb1ucXmFyL5VWJdJoybk?si=32917e2319f943ce</li>
 </ul>
 </p>
 
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
+</p>
+<p>
+Sotelo, Bea Czarina S.  
+<ul>
+	<li>On energy saving mode (she/her) </li>
+	<li>ISTJ</li>
+	<li>Scorpio</li>
+	<li>https://open.spotify.com/playlist/08dxQbPAJsBxASw2IzEgqi?si=AxJmlurrQeaUTJL5UgweXQ</li>
+</ul>
+</p>
 
-[@switlaber69](https://twitter.com/switlaber69) – 22-08532@g.batstate-u.edu.ph
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
+</p>
+<p>
+Yumul, John Angelo M. 
+<ul>
+	<li>Dingdong Mixed Nuts Enjoyer (he/him)  </li>
+	<li>INTJ</li>
+	<li>Capricorn</li>
+	<li>https://open.spotify.com/playlist/1n32mPkuGmmBYSEbP2L4si?si=53915fda040a4e7d</li>
+</ul>
+</p>
+
 
