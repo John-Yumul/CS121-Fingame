@@ -16,7 +16,7 @@
 - [🌎Purpose](#--purpose)
 - [🚀Features](#--features)
 - [👀Gameplay Preview](#--gameplay-preview)
-- [☎️Contact Us](#--contact-us)
+- [☎️Meet the Team](#--meet-the-team)
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 	
@@ -89,8 +89,10 @@
 	<img src="https://user-images.githubusercontent.com/120115162/228397658-c44230ad-4b29-4bbe-9d1f-ed824a93eb51.png"/>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
-## ☎️Meet the Team
-<p>
+## ☎️Meet the Team!
+
+<p align="center"><img src="https://media.discordapp.net/attachments/767703443141427238/1095388816124166225/4R.jpg?width=427&height=640" width="200" height="300" />
+<p align="center">
 Banaag, Vince Clyde S. 
 <ul>
 	<li>PhD in Wishful Thinking (he/him) </li>
@@ -100,7 +102,8 @@ Banaag, Vince Clyde S.
 	<li>22-06373@g.batstate-u.edu.ph</li>
 </ul>
 </p>
-<p>
+<p align="center"><img src="https://media.discordapp.net/attachments/767703443141427238/1095388815792807987/Manguit_4R.png?width=426&height=640" width="200" height="300" />
+<p align="center">
 Manguit, Iemerie Jom C.  
 <ul>
 	<li>Bejeweled Swiftie Innovator (he/him) </li>
@@ -110,7 +113,8 @@ Manguit, Iemerie Jom C.
 	<li>22-09658@g.batstate-u.edu.ph</li>
 </ul>
 </p>
-<p>
+<p align="center"><img src="https://media.discordapp.net/attachments/767703443141427238/1095388816400986303/4r_pic.png?width=430&height=639" width="200" height="300" />
+<p align="center">
 Sotelo, Bea Czarina S.  
 <ul>
 	<li>On energy saving mode (she/her) </li>
@@ -120,7 +124,8 @@ Sotelo, Bea Czarina S.
 	<li>22-06803@g.batstate-u.edu.ph</li>
 </ul>
 </p>
-<p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/767703443141427238/1095388974526246952/4r.png" width="200" height="300" />
+<p align="center">
 Yumul, John Angelo M. 
 <ul>
 	<li>Dingdong Mixed Nuts Enjoyer (he/him)  </li>
