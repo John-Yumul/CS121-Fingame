@@ -90,9 +90,6 @@
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## ☎️Meet the Team
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
-</p>
 <p>
 Banaag, Vince Clyde S. 
 <ul>
@@ -100,8 +97,8 @@ Banaag, Vince Clyde S.
 	<li>INTP</li>
 	<li>Gemini</li>
 	<li>https://open.spotify.com/playlist/7FrQlIOYBVCaAYH7CkEmbu?si=KQhCEvdkTpKCkPQWD8aKvQ&utm_source=copy-link</li>
+	<li>22-06373@g.batstate-u.edu.ph</li>
 </ul>
-</p>
 </p>
 <p>
 Manguit, Iemerie Jom C.  
@@ -110,8 +107,8 @@ Manguit, Iemerie Jom C.
 	<li>INTJ</li>
 	<li>Taurus</li>
 	<li>https://open.spotify.com/playlist/6Pcb1ucXmFyL5VWJdJoybk?si=32917e2319f943ce</li>
+	<li>22-09658@g.batstate-u.edu.ph</li>
 </ul>
-</p>
 </p>
 <p>
 Sotelo, Bea Czarina S.  
@@ -120,8 +117,8 @@ Sotelo, Bea Czarina S.
 	<li>ISTJ</li>
 	<li>Scorpio</li>
 	<li>https://open.spotify.com/playlist/08dxQbPAJsBxASw2IzEgqi?si=AxJmlurrQeaUTJL5UgweXQ</li>
+	<li>22-06803@g.batstate-u.edu.ph</li>
 </ul>
-</p>
 </p>
 <p>
 Yumul, John Angelo M. 
@@ -130,7 +127,6 @@ Yumul, John Angelo M.
 	<li>INTJ</li>
 	<li>Capricorn</li>
 	<li>https://open.spotify.com/playlist/1n32mPkuGmmBYSEbP2L4si?si=53915fda040a4e7d</li>
+	<li>22-08532@g.batstate-u.edu.ph</li>
 </ul>
 </p>
-
-
