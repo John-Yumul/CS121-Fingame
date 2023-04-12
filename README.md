@@ -102,9 +102,6 @@ Banaag, Vince Clyde S.
 	<li>https://open.spotify.com/playlist/7FrQlIOYBVCaAYH7CkEmbu?si=KQhCEvdkTpKCkPQWD8aKvQ&utm_source=copy-link</li>
 </ul>
 </p>
-
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
 </p>
 <p>
 Manguit, Iemerie Jom C.  
@@ -115,9 +112,6 @@ Manguit, Iemerie Jom C.
 	<li>https://open.spotify.com/playlist/6Pcb1ucXmFyL5VWJdJoybk?si=32917e2319f943ce</li>
 </ul>
 </p>
-
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
 </p>
 <p>
 Sotelo, Bea Czarina S.  
@@ -128,9 +122,6 @@ Sotelo, Bea Czarina S.
 	<li>https://open.spotify.com/playlist/08dxQbPAJsBxASw2IzEgqi?si=AxJmlurrQeaUTJL5UgweXQ</li>
 </ul>
 </p>
-
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/120115162/231239821-c7937c63-9ab5-454f-a9c3-b1d6a25958fb.png" width="200" height="300"/>
 </p>
 <p>
 Yumul, John Angelo M. 
