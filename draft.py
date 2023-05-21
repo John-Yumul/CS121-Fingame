@@ -1,3 +1,9 @@
+def display_status(energy, health, ):
+    print("Current Status:")
+    print(f"Energy: {energy}%")
+    print(f"Fun: {fun}%")
+    print()
+
 
 def conversion ():
     int (net_worth)
@@ -5,7 +11,7 @@ def conversion ():
     int (health)
     int (fun)
 
-def tasks ():                                #Add Job increase in money
+def tasks ():                                #Add Job increase in money  #use matrix/list
     print("[1] Food")
     print("[2] Leisure")
     print("[3] Exercise")
@@ -26,18 +32,24 @@ def food ():                                #Simplify print
     
 
     if option == 1:                             #Edit amount of stats
-        deets()
+
+        net_worth = "10000"
+        energy = "100"
+        health = "100"
+        fun = "100"
+
+        conversion()
         net_worth = int(net_worth)
         print(type(net_worth))
 
-        '''
+        
         net_worth -= 1
         energy -= 1
         health -= 1
         fun -= 1
         for x in stats:
             print(x)
-        '''
+        
 
     elif option == 2:
     
@@ -93,45 +105,67 @@ def deets ():
     health = "100"
     fun = "100"
     stats = ["Net Worth: " + net_worth + " Php", "Energy: " + energy + "%", "Health: " + health + "%", "Fun: " + fun + "%", "Status: "]
-
-for x in stats:
-  print(x)
- 
+    for x in stats:
+        print(x)
 
 
-tasks()
-option = int(input("Enter your option: "))
 
-decision = 5
 
-while option != 0:
-    if option == 1:
-        food()
-       
-        
-        
-        #decision -= 1
-        #print(decision)
 
-    elif option == 2:
+#Main program
+MAX_DECISIONS = 5
+energy = 100
+health = 100
+fun = 100
+decision_counter = 0
+week_counter = 1
 
-        print("Option 2 has been called.")
-        
-    elif option == 3:
+print("Welcome to FinGame!")
+print("Current Status:")
+print(f"Energy: {energy}%")
+print(f"Energy: {health}%")
+print(f"Fun: {fun}%")
+print()
 
-        print("Option 3 has been called.")
-        
-    elif option == 4:
+while energy > 0 and health > 0 and fun > 0:
+    if decision_counter == MAX_DECISIONS:
+        print(f"You have made all your decisions for Week {week_counter}. Your energy, health, and fun are now restored to 100%.")
+        energy = 100
+        health = 100
+        fun = 100
+        decision_counter = 0
+        week_counter += 1
+        print()
 
-        print("Option 4 has been called.")
+    print("Main Menu:")
+    print("1. Food")
+    print("2. Leisure")
+    print("3. Quit")
 
-    else:
-
-        print("Invalid option.")
-
+    choice = input("Enter your choice (1-3): ")
     print()
-    tasks()
-    option = int(input("Enter your option: "))
-    
-print("Thank you.")
+
+    if choice == '1':
+        energy, health, fun, decision_counter = handle_food(energy, health, fun, decision_counter)
+    elif choice == '2':
+        energy, health, fun, decision_counter = handle_leisure(energy, health, fun, decision_counter)
+    elif choice == '3':
+        print("Thank you for playing!")
+        break
+    else:
+        print("Invalid choice!")
+
+    print("Current Status:")
+    print(f"Energy: {energy}%")
+    print(f"Health: {energy}%")
+    print(f"Fun: {fun}%")
+    print()
+
+print("Game Over!")
+if energy <= 0:
+    print("Your energy has reached 0. You are exhausted.")
+if health <= 0:
+    print("Your health has reached 0. You are ill.")
+if fun <= 0:
+    print("Your fun has reached 0. You are bored.")
 
