@@ -1,8 +1,13 @@
 import os
 
-#Function to handle the food tasks
+def stats_threshold(energy, fun, health):
+    energy = min(energy, 100)
+    fun = min(fun, 100)
+    health = min(health, 100)
+
+# Function to handle the food tasks
 def handle_food(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  #Clear screen
+    os.system("cls")  # Clear screen
 
     print("Food Options:")
     print("1. Home Cooking")
@@ -31,23 +36,21 @@ def handle_food(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
-    energy = min(energy, 100)
-    fun = min(fun, 100)
-    health = min(health, 100)
+    stats_threshold(energy, fun, health)
 
     return energy, fun, health, net_worth, decision_counter
 
 
-#Function to handle the leisure tasks
+# Function to handle the leisure tasks
 def handle_leisure(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  #Clear screen
+    os.system("cls")  # Clear screen
 
     print("Leisure Options:")
     print("1. Read a Book")
     print("2. Play Video Games")
     print("3. Chill in a Coffee Shop")
     print("4. Watch a Movie in a Cinema")
-    print("5. Go for a Shopping")
+    print("5. Go for Shopping")
     print("6. Attend a Concert")
 
     leisure_choice = input("Enter your choice (1-6): ")
@@ -59,7 +62,7 @@ def handle_leisure(energy, fun, health, net_worth, decision_counter):
         '3': {'energy_depletion': 10, 'fun_depletion': 10, 'health_depletion': 5, 'cost': 200, 'message': "You sipped your favorite beverage in a cafe."},
         '4': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 500, 'message': "You watched a movie and had a great time."},
         '5': {'energy_depletion': 20, 'fun_depletion': 5, 'health_depletion': 5, 'cost': 1000, 'message': "You spent money on the things you love."},
-        '6': {'energy_depletion': 40, 'fun_depletion': 0, 'health_depletion': 15, 'cost': 5000, 'message': "You jived your night in a musical crowd."},
+        '6': {'energy_depletion': 40, 'fun_depletion': 0, 'health_depletion': 15, 'cost': 5000, 'message': "You enjoyed a musical concert."},
     }
 
     if leisure_choice in options:
@@ -73,16 +76,14 @@ def handle_leisure(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
-    energy = min(energy, 100)
-    fun = min(fun, 100)
-    health = min(health, 100)
+    stats_threshold(energy, fun, health)
 
     return energy, fun, health, net_worth, decision_counter
 
 
-#Function to handle the exercise tasks
+# Function to handle the exercise tasks
 def handle_exercise(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  #Clear screen
+    os.system("cls")  # Clear screen
 
     print("Exercise Options:")
     print("1. Walking")
@@ -110,16 +111,14 @@ def handle_exercise(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
-    energy = min(energy, 100)
-    fun = min(fun, 100)
-    health = min(health, 100)
+    stats_threshold(energy, fun, health)
 
     return energy, fun, health, net_worth, decision_counter
 
 
-#Function to handle the transportation tasks
+# Function to handle the transportation tasks
 def handle_transportation(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  #Clear screen
+    os.system("cls")  # Clear screen
 
     print("Transportation Options:")
     print("1. Walk")
@@ -148,14 +147,12 @@ def handle_transportation(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
-    energy = min(energy, 100)
-    fun = min(fun, 100)
-    health = min(health, 100)
+    stats_threshold(energy, fun, health)
 
     return energy, fun, health, net_worth, decision_counter
 
 
-#Main game loop
+# Main game loop
 def game_loop():
     energy = 100
     fun = 100
@@ -164,7 +161,7 @@ def game_loop():
     decision_counter = 0
 
     while energy > 0 and fun > 0 and health > 0 and net_worth > 0:
-        os.system("cls")  #Clear screen
+        os.system("cls")  # Clear screen
 
         print("Well-Being Stats:")
         print("Energy:", energy)
@@ -199,29 +196,30 @@ def game_loop():
         else:
             print("Invalid choice!")
 
-        if decision_counter == 5:
+        if decision_counter == 20:
+            net_worth += 10000
+            net_worth -= 1000  # Deduct house bills such as rent, water, electricity, and internet
+            decision_counter == 0
+
+
+        if decision_counter % 5 == 0:
             energy += 30
             fun += 30
             health += 30
-            net_worth += 10000
-            decision_counter = 0
 
-        energy = min(energy, 100)
-        fun = min(fun, 100)
-        health = min(health, 100)
+            stats_threshold(energy, fun, health)
 
     if energy <= 0 or fun <= 0 or health <= 0 or net_worth <= 0:
         print("Game Over!")
 
         if energy <= 0:
-            print("Your energy has reached 0. You are exhausted.")
+            print("You ran out of energy.")
         if fun <= 0:
-            print("Your fun has reached 0. You are bored.")
+            print("You ran out of fun.")
         if health <= 0:
-            print("Your health has reached 0. You are ill.")
+            print("Your health deteriorated.")
         if net_worth <= 0:
-            print("Your net worth has reached 0. You are broke.")
-
+            print("You ran out of money.")
 
 #Start the game
 game_loop()
