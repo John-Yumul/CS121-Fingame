@@ -168,4 +168,3 @@ if health <= 0:
     print("Your health has reached 0. You are ill.")
 if fun <= 0:
     print("Your fun has reached 0. You are bored.")
-
