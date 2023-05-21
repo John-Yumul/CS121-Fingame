@@ -31,6 +31,10 @@ def handle_food(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
+    energy = min(energy, 100)
+    fun = min(fun, 100)
+    health = min(health, 100)
+
     return energy, fun, health, net_worth, decision_counter
 
 
@@ -69,6 +73,10 @@ def handle_leisure(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
+    energy = min(energy, 100)
+    fun = min(fun, 100)
+    health = min(health, 100)
+
     return energy, fun, health, net_worth, decision_counter
 
 
@@ -102,6 +110,10 @@ def handle_exercise(energy, fun, health, net_worth, decision_counter):
     else:
         print("Invalid choice!")
 
+    energy = min(energy, 100)
+    fun = min(fun, 100)
+    health = min(health, 100)
+
     return energy, fun, health, net_worth, decision_counter
 
 
@@ -122,7 +134,7 @@ def handle_transportation(energy, fun, health, net_worth, decision_counter):
         '1': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 0, 'message': "You walked to your destination."},
         '2': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 0, 'message': "You rode a bicycle to your destination."},
         '3': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 5, 'cost': 50, 'message': "You used a jeepney to reach your destination."},
-        '4': {'energy_depletion': 0, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 100, 'message': "You ydrove a car to your destination."},
+        '4': {'energy_depletion': 0, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 100, 'message': "You drove a car to your destination."},
     }
 
     if transportation_choice in options:
@@ -135,6 +147,10 @@ def handle_transportation(energy, fun, health, net_worth, decision_counter):
         decision_counter += 1
     else:
         print("Invalid choice!")
+
+    energy = min(energy, 100)
+    fun = min(fun, 100)
+    health = min(health, 100)
 
     return energy, fun, health, net_worth, decision_counter
 
@@ -183,12 +199,16 @@ def game_loop():
         else:
             print("Invalid choice!")
 
-        if decision_counter >= 5:
+        if decision_counter == 5:
             energy += 30
             fun += 30
             health += 30
             net_worth += 10000
             decision_counter = 0
+
+        energy = min(energy, 100)
+        fun = min(fun, 100)
+        health = min(health, 100)
 
     if energy <= 0 or fun <= 0 or health <= 0 or net_worth <= 0:
         print("Game Over!")
@@ -203,5 +223,5 @@ def game_loop():
             print("Your net worth has reached 0. You are broke.")
 
 
-# Start the game
+#Start the game
 game_loop()
