@@ -1,8 +1,8 @@
 import os
 
-# Function to handle the food tasks
+#Function to handle the food tasks
 def handle_food(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  # Clear screen
+    os.system("cls")  #Clear screen
 
     print("Food Options:")
     print("1. Home Cooking")
@@ -14,10 +14,10 @@ def handle_food(energy, fun, health, net_worth, decision_counter):
     print()
 
     options = {
-        '1': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 5, 'cost': 200, 'message': "You cooked a delicious meal at home."},
-        '2': {'energy_depletion': 5, 'fun_depletion': 5, 'health_depletion': 5, 'cost': 300, 'message': "You ordered take-out from a nearby restaurant."},
-        '3': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 10, 'cost': 150, 'message': "You had a quick meal at a fast food restaurant."},
-        '4': {'energy_depletion': 10, 'fun_depletion': 15, 'health_depletion': 10, 'cost': 1000, 'message': "You enjoyed a luxurious fine dining experience."},
+        '1': {'energy_depletion': 10, 'fun_depletion': 10, 'health_depletion': 5, 'cost': 100, 'message': "You cooked a delicious meal at home."},
+        '2': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 10, 'cost': 200, 'message': "You ordered take-out from a nearby karinderya."},
+        '3': {'energy_depletion': 5, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 350, 'message': "You had a quick meal at a fast food restaurant."},
+        '4': {'energy_depletion': 10, 'fun_depletion': 0, 'health_depletion': 5, 'cost': 1000, 'message': "You enjoyed a luxurious fine dining experience."},
     }
 
     if food_choice in options:
@@ -34,24 +34,28 @@ def handle_food(energy, fun, health, net_worth, decision_counter):
     return energy, fun, health, net_worth, decision_counter
 
 
-# Function to handle the leisure tasks
+#Function to handle the leisure tasks
 def handle_leisure(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  # Clear screen
+    os.system("cls")  #Clear screen
 
     print("Leisure Options:")
-    print("1. Watch a Movie")
-    print("2. Read a Book")
-    print("3. Play Video Games")
-    print("4. Go for a Hike")
+    print("1. Read a Book")
+    print("2. Play Video Games")
+    print("3. Chill in a Coffee Shop")
+    print("4. Watch a Movie in a Cinema")
+    print("5. Go for a Shopping")
+    print("6. Attend a Concert")
 
-    leisure_choice = input("Enter your choice (1-4): ")
+    leisure_choice = input("Enter your choice (1-6): ")
     print()
 
     options = {
-        '1': {'energy_depletion': 5, 'fun_depletion': 20, 'health_depletion': 5, 'cost': 300, 'message': "You watched a movie and had a great time."},
-        '2': {'energy_depletion': 5, 'fun_depletion': 15, 'health_depletion': 5, 'cost': 100, 'message': "You immersed yourself in a captivating book."},
-        '3': {'energy_depletion': 10, 'fun_depletion': 25, 'health_depletion': 5, 'cost': 500, 'message': "You played video games and had a blast."},
-        '4': {'energy_depletion': 15, 'fun_depletion': 20, 'health_depletion': 10, 'cost': 0, 'message': "You went for a hike and enjoyed the nature."},
+        '1': {'energy_depletion': 5, 'fun_depletion': 20, 'health_depletion': 0, 'cost': 0, 'message': "You immersed yourself in a captivating book."},
+        '2': {'energy_depletion': 10, 'fun_depletion': 15, 'health_depletion': 5, 'cost': 50, 'message': "You played video games and had a blast."},
+        '3': {'energy_depletion': 10, 'fun_depletion': 10, 'health_depletion': 5, 'cost': 200, 'message': "You sipped your favorite beverage in a cafe."},
+        '4': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 500, 'message': "You watched a movie and had a great time."},
+        '5': {'energy_depletion': 20, 'fun_depletion': 5, 'health_depletion': 5, 'cost': 1000, 'message': "You spent money on the things you love."},
+        '6': {'energy_depletion': 40, 'fun_depletion': 0, 'health_depletion': 15, 'cost': 5000, 'message': "You jived your night in a musical crowd."},
     }
 
     if leisure_choice in options:
@@ -68,24 +72,24 @@ def handle_leisure(energy, fun, health, net_worth, decision_counter):
     return energy, fun, health, net_worth, decision_counter
 
 
-# Function to handle the exercise tasks
+#Function to handle the exercise tasks
 def handle_exercise(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  # Clear screen
+    os.system("cls")  #Clear screen
 
     print("Exercise Options:")
-    print("1. Jogging")
-    print("2. Cycling")
-    print("3. Swimming")
-    print("4. Yoga")
+    print("1. Walking")
+    print("2. Running")
+    print("3. Home Workout")
+    print("4. Gym")
 
     exercise_choice = input("Enter your choice (1-4): ")
     print()
 
     options = {
-        '1': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 0, 'message': "You went for a refreshing jog."},
-        '2': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 15, 'cost': 0, 'message': "You enjoyed a scenic cycling session."},
-        '3': {'energy_depletion': 20, 'fun_depletion': 10, 'health_depletion': 20, 'cost': 0, 'message': "You had a great time swimming and improving your fitness."},
-        '4': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 15, 'cost': 0, 'message': "You practiced yoga and felt rejuvenated."},
+        '1': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 0, 'message': "You went for a refreshing walk."},
+        '2': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 15, 'cost': 0, 'message': "You enjoyed a good run."},
+        '3': {'energy_depletion': 20, 'fun_depletion': 10, 'health_depletion': 20, 'cost': 0, 'message': "You had a great time improving your fitness at home."},
+        '4': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 15, 'cost': 0, 'message': "You hit the gym to build those muscles."},
     }
 
     if exercise_choice in options:
