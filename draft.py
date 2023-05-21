@@ -86,16 +86,16 @@ def handle_exercise(energy, fun, health, net_worth, decision_counter):
     print()
 
     options = {
-        '1': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 0, 'message': "You went for a refreshing walk."},
-        '2': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 15, 'cost': 0, 'message': "You enjoyed a good run."},
-        '3': {'energy_depletion': 20, 'fun_depletion': 10, 'health_depletion': 20, 'cost': 0, 'message': "You had a great time improving your fitness at home."},
-        '4': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 15, 'cost': 0, 'message': "You hit the gym to build those muscles."},
+        '1': {'energy_depletion': 5, 'fun_depletion': 15, 'health_increment': 10, 'cost': 0, 'message': "You went for a refreshing walk."},
+        '2': {'energy_depletion': 10, 'fun_depletion': 10, 'health_increment': 15, 'cost': 0, 'message': "You enjoyed a good run."},
+        '3': {'energy_depletion': 20, 'fun_depletion': 5, 'health_increment': 20, 'cost': 0, 'message': "You had a great time improving your fitness at home."},
+        '4': {'energy_depletion': 30, 'fun_depletion': 5, 'health_increment': 15, 'cost': 500, 'message': "You hit the gym to build those muscles."},
     }
 
     if exercise_choice in options:
         energy -= options[exercise_choice]['energy_depletion']
         fun -= options[exercise_choice]['fun_depletion']
-        health -= options[exercise_choice]['health_depletion']
+        health += options[exercise_choice]['health_increment']
         print(options[exercise_choice]['message'])
         print()
         decision_counter += 1
@@ -105,24 +105,24 @@ def handle_exercise(energy, fun, health, net_worth, decision_counter):
     return energy, fun, health, net_worth, decision_counter
 
 
-# Function to handle the transportation tasks
+#Function to handle the transportation tasks
 def handle_transportation(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  # Clear screen
+    os.system("cls")  #Clear screen
 
     print("Transportation Options:")
-    print("1. Public Transportation")
-    print("2. Drive a Car")
-    print("3. Ride a Bicycle")
-    print("4. Walk")
+    print("1. Walk")
+    print("2. Bicycle")
+    print("3. Jeepney")
+    print("4. Car")
 
     transportation_choice = input("Enter your choice (1-4): ")
     print()
 
     options = {
-        '1': {'energy_depletion': 5, 'fun_depletion': 5, 'health_depletion': 5, 'cost': 50, 'message': "You used public transportation to reach your destination."},
-        '2': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 5, 'cost': 500, 'message': "You drove a car to your destination."},
-        '3': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 10, 'cost': 0, 'message': "You rode a bicycle to your destination."},
-        '4': {'energy_depletion': 5, 'fun_depletion': 5, 'health_depletion': 10, 'cost': 0, 'message': "You chose to walk to your destination."},
+        '1': {'energy_depletion': 15, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 0, 'message': "You walked to your destination."},
+        '2': {'energy_depletion': 10, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 0, 'message': "You rode a bicycle to your destination."},
+        '3': {'energy_depletion': 5, 'fun_depletion': 10, 'health_depletion': 5, 'cost': 50, 'message': "You used a jeepney to reach your destination."},
+        '4': {'energy_depletion': 0, 'fun_depletion': 5, 'health_depletion': 0, 'cost': 100, 'message': "You ydrove a car to your destination."},
     }
 
     if transportation_choice in options:
@@ -139,7 +139,7 @@ def handle_transportation(energy, fun, health, net_worth, decision_counter):
     return energy, fun, health, net_worth, decision_counter
 
 
-# Main game loop
+#Main game loop
 def game_loop():
     energy = 100
     fun = 100
@@ -148,12 +148,13 @@ def game_loop():
     decision_counter = 0
 
     while energy > 0 and fun > 0 and health > 0 and net_worth > 0:
-        os.system("cls")  # Clear screen
+        os.system("cls")  #Clear screen
 
-        print("Game Stats:")
+        print("Well-Being Stats:")
         print("Energy:", energy)
         print("Fun:", fun)
         print("Health:", health)
+        print("")
         print("Net Worth:", net_worth)
         print("Decisions:", decision_counter)
         print()
@@ -177,18 +178,29 @@ def game_loop():
         elif choice == '4':
             energy, fun, health, net_worth, decision_counter = handle_transportation(energy, fun, health, net_worth, decision_counter)
         elif choice == '5':
-            print("Game Over!")
+            print("Goodbye!")
             break
         else:
             print("Invalid choice!")
 
         if decision_counter >= 5:
-            energy = 100
-            fun = 100
-            health = 100
+            energy += 30
+            fun += 30
+            health += 30
+            net_worth += 10000
+            decision_counter = 0
 
     if energy <= 0 or fun <= 0 or health <= 0 or net_worth <= 0:
         print("Game Over!")
+
+        if energy <= 0:
+            print("Your energy has reached 0. You are exhausted.")
+        if fun <= 0:
+            print("Your fun has reached 0. You are bored.")
+        if health <= 0:
+            print("Your health has reached 0. You are ill.")
+        if net_worth <= 0:
+            print("Your net worth has reached 0. You are broke.")
 
 
 # Start the game
