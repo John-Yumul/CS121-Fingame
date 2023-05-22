@@ -6,17 +6,20 @@ class Game:
         self.fun = 100
         self.health = 100
         self.net_worth = 20000
-        self.decision_counter = 0
+        self.decision_counter = 5
+        self.week_counter = 1
+        self.month_counter = 1
 
     def clear_screen(self):
         os.system("cls" if os.name == "nt" else "clear")
 
     def print_stats(self):
+        print(f"Week {self.week_counter}, Month {self.month_counter}")
         print("Well-Being Stats:")
-        print(f"Energy: {self.energy}")
-        print(f"Fun: {self.fun}")
-        print(f"Health: {self.health}\n")
-        print(f"Net Worth: {self.net_worth}")
+        print(f"Energy: {self.energy}%")
+        print(f"Fun: {self.fun}%")
+        print(f"Health: {self.health}%\n")
+        print(f"Net Worth: ₱{self.net_worth}")
         print(f"Decisions: {self.decision_counter}\n")
 
     def print_invalid_choice(self):
@@ -28,7 +31,6 @@ class Game:
             + self.fun
             + self.health
             + self.net_worth
-            - self.decision_counter * 100
         )
 
     def handle_task(self, options):
@@ -48,23 +50,31 @@ class Game:
             self.health = min(self.health + option["health_change"], 100)
             self.net_worth -= option["cost"]
             print(option["message"] + "\n")
-            self.decision_counter += 1
+            self.decision_counter -= 1
         else:
             self.print_invalid_choice()
 
-        if self.decision_counter % 5 == 0:
+        if self.decision_counter == 0:
             self.energy = min(self.energy + 30, 100)
             self.fun = min(self.fun + 30, 100)
             self.health = min(self.health + 30, 100)
+            self.decision_counter = 5
+            self.week_counter += 1
 
-        if self.decision_counter % 20 == 0 and self.decision_counter > 0:
+        if self.week_counter == 5:
+            self.week_counter = 1
+            self.month_counter += 1
             self.net_worth -= 4750  # Deduct house bills such as rent, water, electricity, and internet
 
             print("House bills deducted from your net worth:")
-            print("- Rent: 2000")
+            print("- Rent: 2,000")
             print("- Water Bill: 500")
             print("- Electric Bill: 750")
-            print("- Internet Bill: 1500\n")
+            print("- Internet Bill: 1,500\n")
+
+            self.net_worth += 20000 # Add for monthly salary
+
+            print("+ Monthly Salary: 20,000\n")
 
     def game_loop(self):
         while all(
@@ -97,16 +107,15 @@ class Game:
                 self.print_invalid_choice()
 
         self.clear_screen()
-        self.print_stats()
 
-        print("Game Over!")
+        print("Game Over!\n")
         print("Final Stats:")
-        print(f"Energy: {self.energy}")
-        print(f"Fun: {self.fun}")
-        print(f"Health: {self.health}")
-        print(f"Net Worth: {self.net_worth}")
+        print(f"Energy: {self.energy}%")
+        print(f"Fun: {self.fun}%")
+        print(f"Health: {self.health}\n%")
+        print(f"Net Worth: ₱{self.net_worth}")
         print(f"Decisions: {self.decision_counter}")
-        print(f"Score: {self.calculate_score()}")
+        print(f"Score: {self.calculate_score()}\n")
 
     @staticmethod
     def print_option_message(option):
@@ -232,6 +241,6 @@ class Game:
         ]
         return self.create_options(options)
 
-
+os.system("cls")
 game = Game()
 game.game_loop()
