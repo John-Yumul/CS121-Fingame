@@ -1,5 +1,4 @@
 import os
-
 class Game:
     def __init__(self):
         self.energy = 100
@@ -14,7 +13,7 @@ class Game:
         os.system("cls" if os.name == "nt" else "clear")
 
     def print_stats(self):
-        print(f"Week {self.week_counter}, Month {self.month_counter}")
+        print(f"Week {self.week_counter}, Month {self.month_counter}\n")
         print("Well-Being Stats:")
         print(f"Energy: {self.energy}%")
         print(f"Fun: {self.fun}%")
@@ -49,7 +48,10 @@ class Game:
             self.fun = min(self.fun + option["fun_change"], 100)
             self.health = min(self.health + option["health_change"], 100)
             self.net_worth -= option["cost"]
-            print(option["message"] + "\n")
+            print("You chose", option["name"])
+            print(option["message"], "\n")
+            print("Energy:", option["energy_change"], "Fun:", option["fun_change"], "Health:", option["health_change"])
+            print("Cost: -₱", option["cost"], "\n")
             self.decision_counter -= 1
         else:
             self.print_invalid_choice()
@@ -59,6 +61,7 @@ class Game:
             self.fun = min(self.fun + 30, 100)
             self.health = min(self.health + 30, 100)
             self.decision_counter = 5
+            print(f"It's now the end of Week {self.week_counter}. You receive +30 to your Energy, Fun, and Health.")
             self.week_counter += 1
 
         if self.week_counter == 5:
@@ -75,6 +78,7 @@ class Game:
             self.net_worth += 20000 # Add for monthly salary
 
             print("+ Monthly Salary: 20,000\n")
+            print(f"It's now Month {self.month_counter}. You receive +20,000 to your net worth.")
 
     def game_loop(self):
         while all(
@@ -87,9 +91,9 @@ class Game:
             print("2. Leisure")
             print("3. Exercise")
             print("4. Transportation")
-            print("5. Quit")
+            print("0. Quit")
 
-            choice = input("Enter your choice (1-5): ")
+            choice = input("Enter your choice (0-4): ")
             self.clear_screen()
 
             option_mapping = {
@@ -99,7 +103,7 @@ class Game:
                 "4": self.get_transportation_options,
             }
 
-            if choice == "5":
+            if choice == "0":
                 break
             elif choice in option_mapping:
                 self.handle_task(option_mapping[choice]())
@@ -133,7 +137,7 @@ class Game:
                 "fun_change": -5,
                 "health_change": 10,
                 "cost": 50,
-                "message": "ate a healthy meal. Energy +10, Fun -5, Health +10.",
+                "message": "ate a healthy meal.",
             },
             {
                 "name": "Grab a quick snack",
@@ -141,7 +145,7 @@ class Game:
                 "fun_change": 0,
                 "health_change": -5,
                 "cost": 10,
-                "message": "grabbed a quick snack. Energy +5, Fun +0, Health -5.",
+                "message": "grabbed a quick snack.",
             },
             {
                 "name": "Skip a meal",
@@ -149,7 +153,7 @@ class Game:
                 "fun_change": 0,
                 "health_change": -5,
                 "cost": 0,
-                "message": "skipped a meal. Energy -10, Fun +0, Health -5.",
+                "message": "skipped a meal.",
             },
         ]
         return self.create_options(options)
@@ -162,7 +166,7 @@ class Game:
                 "fun_change": 20,
                 "health_change": 0,
                 "cost": 50,
-                "message": "watched a movie. Energy -10, Fun +20, Health +0.",
+                "message": "watched a movie.",
             },
             {
                 "name": "Go to a party",
@@ -170,7 +174,7 @@ class Game:
                 "fun_change": 30,
                 "health_change": -10,
                 "cost": 100,
-                "message": "went to a party. Energy -20, Fun +30, Health -10.",
+                "message": "went to a party.",
             },
             {
                 "name": "Read a book",
@@ -178,7 +182,7 @@ class Game:
                 "fun_change": 5,
                 "health_change": 0,
                 "cost": 20,
-                "message": "read a book. Energy -5, Fun +5, Health +0.",
+                "message": "read a book.",
             },
         ]
         return self.create_options(options)
@@ -191,7 +195,7 @@ class Game:
                 "fun_change": 10,
                 "health_change": 20,
                 "cost": 0,
-                "message": "went for a run. Energy -20, Fun +10, Health +20.",
+                "message": "went for a run.",
             },
             {
                 "name": "Do yoga",
@@ -199,7 +203,7 @@ class Game:
                 "fun_change": 5,
                 "health_change": 15,
                 "cost": 0,
-                "message": "did yoga. Energy -10, Fun +5, Health +15.",
+                "message": "did yoga.",
             },
             {
                 "name": "Lift weights",
@@ -207,7 +211,7 @@ class Game:
                 "fun_change": 5,
                 "health_change": 25,
                 "cost": 0,
-                "message": "lifted weights. Energy -15, Fun +5, Health +25.",
+                "message": "lifted weights.",
             },
         ]
         return self.create_options(options)
@@ -220,7 +224,7 @@ class Game:
                 "fun_change": 10,
                 "health_change": 0,
                 "cost": 50,
-                "message": "took a taxi. Energy -5, Fun +10, Health +0.",
+                "message": "took a taxi.",
             },
             {
                 "name": "Ride a bike",
@@ -228,7 +232,7 @@ class Game:
                 "fun_change": 10,
                 "health_change": 10,
                 "cost": 0,
-                "message": "rode a bike. Energy -15, Fun +10, Health +10.",
+                "message": "rode a bike.",
             },
             {
                 "name": "Walk",
@@ -236,7 +240,7 @@ class Game:
                 "fun_change": 5,
                 "health_change": 15,
                 "cost": 0,
-                "message": "walked. Energy -10, Fun +5, Health +15.",
+                "message": "walked.",
             },
         ]
         return self.create_options(options)
