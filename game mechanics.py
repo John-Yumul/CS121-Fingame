@@ -33,54 +33,55 @@ def create_frame(text):
     return '\n'.join(framed_text)
 a = """Here's the Game Mechanics
 
-First and foremost, the game aims to keep your wellbeing score as high as possible.
-Wellbeing is about staying well in all areas of your life.
-You can't affect your wellbeing score directly it's based on some other scores you have to think about:
+First and foremost, the game requires for you to keep your well-being score as high as possible.
+Well-being is about staying robust in various areas of your life.
+You can't affect your well-being score directly. It's based on the scores of these following areas:
 
-Fun score - this shows you how much fun you're having! You can raise your fun score by buying things to keep you busy 
-such as books or video games, or by doing fun activities like meeting friends or playing football.
+> FUN SCORE - this shows you how much fun you're having! You can raise your fun score by buying things to keep you busy 
+such as books or video games, as well as by doing leisurely activities such as meeting friends or playing football.
 
-Health score - a measure of how good your health is.
-Doing sport and getting exercise is good for your health. If you don't do this enough, or you eat unhealthy food, 
-your health score will go down.
+> HEALTH SCORE - this is a measure of the condition of your physical health.
+Participating in sports and getting an ample amount can increase your score in this area. 
+If you don't do this enough, or if you eat unhealthy food, this will go down.
 
-Comfort score - this goes down whenever you do something that's hard work or a lot of effort, including exercise or 
-cooking for yourself. 
-But you can raise it with things that make life easier or more comfortable, such as a dishwasher or a winter coat.
+> COMFORT SCORE - this goes down whenever you do something that's requires a lot of hard work and effort, such 
+as exercising or cooking for yourself. 
+Contrarily, you can raise it with things that bring ease and comfort to life, such as a dishwasher or a winter coat.
 
-Satisfaction anything in the game that makes you feel good about yourself increases your satisfaction score. 
-Giving money to charity, reading a book or doing some exercise will all increase your satisfaction levels."""
+> SATISFACTION - this is increased by anything in the game that makes you feel good about yourself. 
+Giving money to charity, reading a book, or exercising will all increase your satisfaction levels."""
 framed_text = create_frame(a)
 print(framed_text)
+
 b = """Most things in the game don't come for free! 
-Every month you'll get paid for doing your job, but you also have bills to pay - you have to decide what to spend 
+Every month, you'll get paid for doing your job, but you also have bills to pay. You have to decide where to spend 
 your left-over money on. 
 Your balance tells you how much money you've got in the bank.
-Every week you must make THREE choices for each of these things:
+Every week, you must make FIVE choices for each of these things:
 
-Activities-what you spend your time doing
-Food - what you eat
-Transport - how you get around
+> FOOD - what you eat
+> LEISURE - how you spend your free time
+> EXERCISE - how you maintain your physical fitness
+> TRANSPORTATION - how you get around
 
 There are also lots of items you can buy to increase your scores - but you don't have to.
-Some items don't increase your scores, but they allow you to do other things for example you need to buy trainers to  
-go running. 
+Some items don't increase your scores, but they allow you to do other things. For example, you need 
+to buy trainers to go running. 
 You start the game with some items already."""
 framed_text = create_frame(b)
 print(framed_text)
 
-c = """Each week in the game lasts one turn. Once you've made all your choices for the week, you need to click the 'Go to 
-next week' button. 
-Then your scores will change before the next turn starts.
+c = """Each week in the game lasts one turn. Once you've made all your choices for the week, 
+you need to click the 'GO TO NEXT WEEK' button. Then your scores will change before the next turn starts.
 
 To win, you need to stay in the game for 12 weeks. 
-If you run out of money before then, or your wellbeing drops too low, it's game over! 
-You need to make sure you always have enough money in the bank to pay all your bills. 
+If you run out of money before then, or your well-being drops too low, it's game over! 
+You need to make sure you always have enough money in the bank to pay for all your bills. 
 After 12 weeks, you can carry on playing if you like.
 
-Don't forget to read your messages every week for advice on how you're doing, updates on your spending, and other 
+Don't forget to read your messages every week for advice on how you're doing, updates on your expenditure, and other 
 important news. 
-The Finance screen shows you all your fixed payments for the month, and a list of all your recent spending - use it to
-plan how much you're going to spend."""
+The Finance Screen shows you all your fixed payments for the month, and a list of all your recent spending - 
+use it to plan how much you're going to spend."""
 framed_text = create_frame(c)
 print(framed_text)
