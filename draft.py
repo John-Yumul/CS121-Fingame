@@ -1,36 +1,45 @@
 import os
+
 class Game:
     def __init__(self):
-        self.energy = 100
-        self.fun = 100
-        self.health = 100
-        self.net_worth = 20000
-        self.decision_counter = 5
-        self.week_counter = 1
-        self.month_counter = 1
+        # Initialize game attributes
+        self.energy, self.fun, self.health = 100, 100, 100
+        self.net_worth, self.decision_counter = 20000, 5
+        self.week_counter, self.month_counter = 1, 1
+        self.print_stats()
 
     def clear_screen(self):
         os.system("cls" if os.name == "nt" else "clear")
 
     def print_stats(self):
+        # Print well-being stats and game information
         print(f"Week {self.week_counter}, Month {self.month_counter}\n")
         print("Well-Being Stats:")
-        print(f"Energy: {self.energy}%")
-        print(f"Fun: {self.fun}%")
-        print(f"Health: {self.health}%\n")
-        print(f"Net Worth: ₱{self.net_worth}")
+        self.print_status_bar("Energy:", self.energy)
+        self.print_status_bar("Fun:\t", self.fun)
+        self.print_status_bar("Health:", self.health)
+        print(f"\nNet Worth: ₱{self.net_worth}")
         print(f"Decisions: {self.decision_counter}\n")
+
+    def print_status_bar(self, label, value):
+        # Print a status bar for a given stat
+        bar_length = 30
+        filled_length = int(bar_length * value / 100)
+        empty_length = bar_length - filled_length
+
+        filled_bar = u"\u2584" * filled_length
+        empty_bar = '-' * empty_length
+
+        bar = filled_bar + empty_bar
+        level = f'{value}%'
+
+        print(f"{label} \t [{bar}] {level}")
 
     def print_invalid_choice(self):
         print("Invalid choice!\n")
 
     def calculate_score(self):
-        return (
-            self.energy
-            + self.fun
-            + self.health
-            + self.net_worth
-        )
+        return sum([self.energy, self.fun, self.health, self.net_worth])
 
     def handle_task(self, options):
         self.clear_screen()
@@ -48,10 +57,13 @@ class Game:
             self.fun = min(self.fun + option["fun_change"], 100)
             self.health = min(self.health + option["health_change"], 100)
             self.net_worth -= option["cost"]
+            self.print_stats()
             print("You chose", option["name"])
             print(option["message"], "\n")
-            print("Energy:", option["energy_change"], "Fun:", option["fun_change"], "Health:", option["health_change"])
-            print("Cost: -₱", option["cost"], "\n")
+            print(f"Energy: {option['energy_change']}", end=" ")
+            print(f"Fun: {option['fun_change']}", end=" ")
+            print(f"Health: {option['health_change']}")
+            print(f"Cost: -₱{option['cost']}\n")
             self.decision_counter -= 1
         else:
             self.print_invalid_choice()
@@ -61,7 +73,8 @@ class Game:
             self.fun = min(self.fun + 30, 100)
             self.health = min(self.health + 30, 100)
             self.decision_counter = 5
-            print(f"It's now the end of Week {self.week_counter}. You receive +30 to your Energy, Fun, and Health.")
+            print(f"It's now the end of Week {self.week_counter}.")
+            print("You receive +30 to your Energy, Fun, and Health.\n")
             self.week_counter += 1
 
         if self.week_counter == 5:
@@ -75,17 +88,14 @@ class Game:
             print("- Electric Bill: 750")
             print("- Internet Bill: 1,500\n")
 
-            self.net_worth += 20000 # Add for monthly salary
+            self.net_worth += 20000 # Add monthly salary
 
             print("+ Monthly Salary: 20,000\n")
-            print(f"It's now Month {self.month_counter}. You receive +20,000 to your net worth.")
+            print(f"It's now Month {self.month_counter}.")
+            print("You receive +20,000 to your net worth.")
 
     def game_loop(self):
-        while all(
-            [self.energy > 0, self.fun > 0, self.health > 0, self.net_worth > 0]
-        ):
-            self.print_stats()
-
+        while all([self.energy > 0, self.fun > 0, self.health > 0, self.net_worth > 0]):
             print("Options:")
             print("1. Food")
             print("2. Leisure")
@@ -116,14 +126,10 @@ class Game:
         print("Final Stats:")
         print(f"Energy: {self.energy}%")
         print(f"Fun: {self.fun}%")
-        print(f"Health: {self.health}\n%")
+        print(f"Health: {self.health}%")
         print(f"Net Worth: ₱{self.net_worth}")
         print(f"Decisions: {self.decision_counter}")
         print(f"Score: {self.calculate_score()}\n")
-
-    @staticmethod
-    def print_option_message(option):
-        print(f"You {option['message']}\n")
 
     @staticmethod
     def create_options(options):
