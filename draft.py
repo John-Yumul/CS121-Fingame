@@ -1,4 +1,5 @@
 import os
+import random
 
 def stats_threshold(energy, fun, health):
     energy = min(energy, 100)
@@ -191,35 +192,29 @@ def game_loop():
         elif choice == '4':
             energy, fun, health, net_worth, decision_counter = handle_transportation(energy, fun, health, net_worth, decision_counter)
         elif choice == '5':
-            print("Goodbye!")
             break
         else:
             print("Invalid choice!")
 
-        if decision_counter == 20:
-            net_worth += 10000
-            net_worth -= 1000  # Deduct house bills such as rent, water, electricity, and internet
-            decision_counter == 0
+    os.system("cls")  # Clear screen
+
+    print("Game Over!")
+    print("Final Stats:")
+    print("Energy:", energy)
+    print("Fun:", fun)
+    print("Health:", health)
+    print("")
+    print("Net Worth:", net_worth)
+    print("Decisions:", decision_counter)
+    print()
+
+    score = energy + fun + health + net_worth - decision_counter * 100
+    print("Score:", score)
 
 
-        if decision_counter % 5 == 0:
-            energy += 30
-            fun += 30
-            health += 30
-
-            stats_threshold(energy, fun, health)
-
-    if energy <= 0 or fun <= 0 or health <= 0 or net_worth <= 0:
-        print("Game Over!")
-
-        if energy <= 0:
-            print("You ran out of energy.")
-        if fun <= 0:
-            print("You ran out of fun.")
-        if health <= 0:
-            print("Your health deteriorated.")
-        if net_worth <= 0:
-            print("You ran out of money.")
-
-#Start the game
+# Start the game
+os.system("cls") 
+print("INSERT INTRO NINA BEA AT VINCE")
+print()
+input("Press Enter to start the game...")
 game_loop()
