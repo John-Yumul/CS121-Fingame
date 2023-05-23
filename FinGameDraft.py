@@ -1,9 +1,23 @@
 import shutil
 import os
 import pygame
+import time
 from pygame import mixer
 
 os.system("cls")
+
+pygame.mixer.init()
+start_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Start.mp3')
+common_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Common_SFX.mp3')
+game_over_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Game_Over.mp3')
+week_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Week.mp3')
+month_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Month.mp3')
+invalid_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Invalid.mp3')
+
+pygame.init()
+mixer.music.load(r'C:\Users\Admin\Desktop\FinGameCode\BG\BG.mp3')
+mixer.music.play(-1)
+
 vertical = '\u2551'
 horizontal = '\u2550'
 top_left = '\u2554'
@@ -72,17 +86,6 @@ will also be deducted from your balance. If you run out of money, or your well-b
 You can quit the game at any time, and view your final stats, net worth, and score."""
 framed_text = create_frame(c)
 print(framed_text)
-
-pygame.mixer.init()
-common_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Common_SFX.mp3')
-game_over_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Game_Over.mp3')
-week_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Week.mp3')
-month_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Month.mp3')
-invalid_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Invalid.mp3')
-
-pygame.init()
-mixer.music.load(r'C:\Users\Admin\Desktop\FinGameCode\BG\BG.mp3')
-mixer.music.play(-1)
 
 class Game:
     def __init__(self):
@@ -209,7 +212,8 @@ class Game:
 
         self.clear_screen()
 
-       
+        mixer.music.stop()
+        game_over_sound.play()
         print("Game Over!\n")
         print("Final Stats:")
         print(f"Energy: {self.energy}%")
@@ -218,6 +222,7 @@ class Game:
         print(f"Net Worth: ₱{self.net_worth}")
         print(f"Decisions: {self.decision_counter}")
         print(f"Score: {self.calculate_score()}\n")
+        time.sleep(3)
 
     @staticmethod
     def create_options(options):
@@ -343,9 +348,9 @@ start = input(create_frame("Press Enter to start the game.") + "\n")
 while True:
     if start == "":
         os.system("cls")
+        start_sound.play()
         game = Game()
         game.game_loop()
         break
     else:
         start = input(create_frame("Invalid input. Please press Enter to continue.") + "\n")
-
