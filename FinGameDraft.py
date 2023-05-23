@@ -337,7 +337,8 @@ class Game:
             },
         ]
         return self.create_options(options)
-
+    
+self.clear_screen()
 start = input(create_frame("Press Enter to start the game.") + "\n")
 while True:
     if start == "":
