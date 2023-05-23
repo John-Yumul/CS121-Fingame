@@ -138,36 +138,6 @@ def handle_transportation(energy, fun, health, net_worth, decision_counter):
 
     return energy, fun, health, net_worth, decision_counter
 
-def investment(energy, fun, health, net_worth, decision_counter):
-    os.system("cls")  #Clear screen
-
-if invested is true:
-
-    print("Your invenstment has grown by" )
-    
-    
-    print("Invetment Options:")
-    print("1. Stocks")
-    print("2. Forex")
-    print("3. Crypto")
-    print("4. tba")
-
-    investment_choice = input("Enter your choice (1-4): ")
-    print()
-
-    options = {
-    
-    }
-
-    if investment choice in options:
-
-        print()
-        decision_counter += 1
-        invested = True
-    else:
-        print("Invalid choice!")
-
-    return energy, fun, health, net_worth, decision_counter
 
 
 # Main game loop
