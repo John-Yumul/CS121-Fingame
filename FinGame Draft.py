@@ -79,6 +79,10 @@ week_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Week.mp
 month_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Month.mp3')
 invalid_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Invalid.mp3')
 
+pygame.init()
+mixer.music.load(r'C:\Users\Admin\Desktop\FinGameCode\BG\BG.mp3')
+mixer.music.play(-1)
+
 class Game:
     def __init__(self):
         # Initialize game attributes
