@@ -3,6 +3,7 @@ import os
 import pygame
 from pygame import mixer
 
+os.system("cls")
 vertical = '\u2551'
 horizontal = '\u2550'
 top_left = '\u2554'
@@ -338,7 +339,6 @@ class Game:
         ]
         return self.create_options(options)
     
-self.clear_screen()
 start = input(create_frame("Press Enter to start the game.") + "\n")
 while True:
     if start == "":
