@@ -1,4 +1,13 @@
 import os
+import pygame
+from pygame import mixer
+
+pygame.mixer.init()
+common_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Common_SFX.mp3')
+game_over_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Game_Over.mp3')
+week_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Week.mp3')
+month_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Month.mp3')
+invalid_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Invalid.mp3')
 
 class Game:
     def __init__(self):
@@ -36,7 +45,9 @@ class Game:
         print(f"{label} \t [{bar}] {level}")
 
     def print_invalid_choice(self):
+        invalid_sound.play()
         print("Invalid choice!\n")
+        self.print_stats()
 
     def calculate_score(self):
         return sum([self.energy, self.fun, self.health, self.net_worth])
@@ -52,6 +63,7 @@ class Game:
         self.clear_screen()
 
         if user_choice in options:
+            common_sound.play()
             option = options[user_choice]
             self.energy = min(self.energy + option["energy_change"], 100)
             self.fun = min(self.fun + option["fun_change"], 100)
@@ -73,6 +85,7 @@ class Game:
             self.fun = min(self.fun + 30, 100)
             self.health = min(self.health + 30, 100)
             self.decision_counter = 5
+            week_sound.play()
             print(f"It's now the end of Week {self.week_counter}.")
             print("You receive +30 to your Energy, Fun, and Health.\n")
             self.week_counter += 1
@@ -81,15 +94,13 @@ class Game:
             self.week_counter = 1
             self.month_counter += 1
             self.net_worth -= 4750  # Deduct house bills such as rent, water, electricity, and internet
-
+            month_sound.play()
             print("House bills deducted from your net worth:")
             print("- Rent: 2,000")
             print("- Water Bill: 500")
             print("- Electric Bill: 750")
             print("- Internet Bill: 1,500\n")
-
             self.net_worth += 20000 # Add monthly salary
-
             print("+ Monthly Salary: 20,000\n")
             print(f"It's now Month {self.month_counter}.")
             print("You receive +20,000 to your net worth.")
@@ -116,12 +127,14 @@ class Game:
             if choice == "0":
                 break
             elif choice in option_mapping:
+                common_sound.play()
                 self.handle_task(option_mapping[choice]())
             else:
                 self.print_invalid_choice()
 
         self.clear_screen()
 
+       
         print("Game Over!\n")
         print("Final Stats:")
         print(f"Energy: {self.energy}%")
