@@ -121,6 +121,9 @@ class Game:
         level = f'{value}%'
 
         print(f"{label} \t [{bar}] {level}")
+        if value <= 30:
+            print(f"\t\t Running Low.")
+            invalid_sound.play()
 
     def print_invalid_choice(self):
         invalid_sound.play()
@@ -128,7 +131,7 @@ class Game:
         self.print_stats()
 
     def calculate_score(self):
-        return sum([self.energy, self.fun, self.health, self.net_worth])
+        return max(0, sum([self.energy, self.fun, self.health, self.net_worth]))
 
     def handle_task(self, options):
         self.clear_screen()
@@ -137,6 +140,7 @@ class Game:
         for key, value in options.items():
             print(f"{key}. {value['name']}")
 
+        print()
         user_choice = input(f"Enter your choice (1-{len(options)}): ")
         self.clear_screen()
 
@@ -171,17 +175,17 @@ class Game:
         if self.week_counter == 5:
             self.week_counter = 1
             self.month_counter += 1
-            self.net_worth -= 4750  # Deduct house bills such as rent, water, electricity, and internet
+            self.net_worth -= 8000  # Deduct house bills such as rent, water, electricity, and internet
             month_sound.play()
-            print("House bills deducted from your net worth:")
-            print("- Rent: 2,000")
-            print("- Water Bill: 500")
-            print("- Electric Bill: 750")
-            print("- Internet Bill: 1,500\n")
+            print(f"It's now the end of Month {self.month_counter-1}.")
+            print("Utility bills deducted from your net worth:")
+            print("- Rent: ₱4,000")
+            print("- Water Bill: ₱700")
+            print("- Electric Bill: ₱1500")
+            print("- Internet Bill: ₱1,800\n")
             self.net_worth += 20000 # Add monthly salary
-            print("+ Monthly Salary: 20,000\n")
-            print(f"It's now Month {self.month_counter}.")
-            print("You receive +20,000 to your net worth.")
+            print("+ Monthly Salary: ₱20,000\n")
+            input(create_frame(f"Press Enter to Jump into {self.month_counter}") + "\n")
 
     def game_loop(self):
         while all([self.energy > 0, self.fun > 0, self.health > 0, self.net_worth > 0]):
@@ -190,11 +194,11 @@ class Game:
             print("2. Leisure")
             print("3. Exercise")
             print("4. Transportation")
-            print("0. Quit")
+            print("0. Quit\n")
 
             choice = input("Enter your choice (0-4): ")
             self.clear_screen()
-
+    
             option_mapping = {
                 "1": self.get_food_options,
                 "2": self.get_leisure_options,
