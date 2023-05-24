@@ -15,7 +15,7 @@
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 	
  ## 💡About 
-
+### <a name="--about"></a>
 <p> Whether we realize it or not, managing our finances is essential to living. 😀💵</p>
 	
 <p> Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. 🤔</p>
@@ -28,7 +28,7 @@
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
  ## 🌎Purpose 
-
+### <a name="--purpose"></a>
 <p align="center">
 	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095327451191722034/SDG.gif?width=2560&height=1080" width="1080"/>
 
@@ -61,7 +61,7 @@
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
 ## 🚀Features 
-	
+### <a name="--features"></a>	
 <p align="center">
 	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095367395998183514/ezgif-4-a2ebc072b3.gif?width=1000&height=421" width="1080"/>
 
@@ -78,13 +78,14 @@
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
 ## 👀Gameplay Preview
+### <a name="--gameplay-preview"></a>
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/120115162/228392636-8e7318e0-94f8-4513-8307-83f736b65e2d.png"/>
 	<img src="https://user-images.githubusercontent.com/120115162/228397658-c44230ad-4b29-4bbe-9d1f-ed824a93eb51.png"/>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## ☎️Meet the Team!
-
+### <a name="--meet-the-team"></a>
 <p align="center"><img src="https://media.discordapp.net/attachments/767703443141427238/1095388816124166225/4R.jpg?width=427&height=640" width="200" height="300" />
 <p align="center">
 Banaag, Vince Clyde S. 
