@@ -62,7 +62,7 @@ can also affect your fun score.
 
 > HEALTH SCORE - this is a measure of the condition of your physical health. Exercising and getting an ample amount 
 of physical activity can increase your score in this area. If you don't do move around enough, or if you eat 
-unhealthy food, this will go down.
+unhealthy food and skip meals, this will either remain stagnant or decrease.
 
 > ENERGY SCORE - this goes down whenever you do something that requires a lot of hard work and effort, such 
 as exercising. It is replenished every week, albeit you must not run out of energy or you will lose."""
@@ -80,10 +80,10 @@ of these things:
 framed_text = create_frame(b)
 print(framed_text)
 
-c = """Once you've made all your choices for the week, you get 30 energy points. Once you've made five decisions 
-each for the span of four weeks, you will get a monthly salary. On the other hand, payments for your utility bills
-will also be deducted from your balance. If you run out of money, or your well-being drops too low, it's game over! 
-You can quit the game at any time, and view your final stats, net worth, and score."""
+c = """Once you've made all your choices for the week, you get 30 points each for your Energy, Fun, and Health score. Once 
+you've made five decisions each for the span of four weeks, you will get a monthly salary. At the same time, your 
+utility bills will also be deducted from your balance. If you run out of money, or any of your stats drop too low, 
+it's game over! You can quit the game at any time and view your final stats, net worth, and score"""
 framed_text = create_frame(c)
 print(framed_text)
 
