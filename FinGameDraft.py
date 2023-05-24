@@ -225,7 +225,6 @@ class Game:
         print(f"Fun: {self.fun}%")
         print(f"Health: {self.health}%")
         print(f"Net Worth: ₱{self.net_worth}")
-        print(f"Decisions: {self.decision_counter}\n")
         print(f"Score: {self.calculate_score()}")
         time.sleep(3)
 
