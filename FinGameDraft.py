@@ -179,13 +179,14 @@ class Game:
             month_sound.play()
             print(f"It's now the end of Month {self.month_counter-1}.")
             print("Utility bills deducted from your net worth:")
-            print("- Rent: ₱4,000")
-            print("- Water Bill: ₱700")
-            print("- Electric Bill: ₱1500")
-            print("- Internet Bill: ₱1,800\n")
+            print("Rent: \t\t-₱4,000")
+            print("Water Bill: \t-₱700")
+            print("Electric Bill: \t-₱1500")
+            print("Internet Bill: \t-₱1,800\n")
             self.net_worth += 20000 # Add monthly salary
-            print("+ Monthly Salary: ₱20,000\n")
+            print("Monthly Salary: +₱20,000\n")
             input(create_frame(f"Press Enter to Jump into Month {self.month_counter}") + "\n")
+            start_sound.play()
 
     def game_loop(self):
         while all([self.energy > 0, self.fun > 0, self.health > 0, self.net_worth > 0]):
