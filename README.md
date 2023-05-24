@@ -82,7 +82,8 @@
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/120115162/228392636-8e7318e0-94f8-4513-8307-83f736b65e2d.png"/>
 	<img src="https://user-images.githubusercontent.com/120115162/228397658-c44230ad-4b29-4bbe-9d1f-ed824a93eb51.png"/>
-
+	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/a29a3385-3ef2-41ea-b232-83e07c81a569"/>
+	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/b64c7f92-da32-4f37-af3d-62ee993d78cc"/>
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## ☎️Meet the Team!
 ### <a name="--meet-the-team"></a>
