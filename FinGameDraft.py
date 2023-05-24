@@ -138,7 +138,7 @@ class Game:
         self.print_stats()
 
         for key, value in options.items():
-            print(f"{key}. {value['name']}")
+            print(f"{key}. {value['name']} (-₱{value['cost']})")
 
         print()
         user_choice = input(f"Enter your choice (1-{len(options)}): ")
