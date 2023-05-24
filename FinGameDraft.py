@@ -7,17 +7,17 @@ from pygame import mixer
 os.system("cls")
 
 pygame.mixer.init()
-start_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Start.mp3')
-common_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Common_SFX.mp3')
-game_over_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Game_Over.mp3')
-week_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Week.mp3')
-month_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Month.mp3')
-invalid_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Invalid.mp3')
+start_sound = pygame.mixer.Sound(r'.\SFX\Start.mp3')
+common_sound = pygame.mixer.Sound(r'.\SFX\Common_SFX.mp3')
+game_over_sound = pygame.mixer.Sound(r'.\SFX\Game_Over.mp3')
+week_sound = pygame.mixer.Sound(r'.\SFX\Week.mp3')
+month_sound = pygame.mixer.Sound(r'.\SFX\Month.mp3')
+invalid_sound = pygame.mixer.Sound(r'.\SFX\Invalid.mp3')
 
 pygame.init()
-mixer.music.load(r'C:\Users\Admin\Desktop\FinGameCode\BG\BG.mp3')
+mixer.music.load(r'.\BG\BG.mp3')
 mixer.music.play(-1)
-with open('C:\\Users\\ACER\\Desktop\\fingame title.txt', "r", encoding="utf8") as f:
+with open('.\FingameTitle.txt', "r", encoding="utf8") as f:
     for line in f:
         print(line.rstrip())
     input("Press Enter to read the mechanics.")
