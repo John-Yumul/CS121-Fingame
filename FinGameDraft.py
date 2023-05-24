@@ -22,6 +22,7 @@ with open('C:\\Users\\ACER\\Desktop\\fingame title.txt', "r", encoding="utf8") a
         print(line.rstrip())
     input("Press Enter to read the mechanics.")
     pass
+os.system("cls")
 
 def create_frame(text):
     lines = text.split('\n')
