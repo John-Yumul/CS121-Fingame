@@ -185,7 +185,7 @@ class Game:
             print("- Internet Bill: ₱1,800\n")
             self.net_worth += 20000 # Add monthly salary
             print("+ Monthly Salary: ₱20,000\n")
-            input(create_frame(f"Press Enter to Jump into {self.month_counter}") + "\n")
+            input(create_frame(f"Press Enter to Jump into Month {self.month_counter}") + "\n")
 
     def game_loop(self):
         while all([self.energy > 0, self.fun > 0, self.health > 0, self.net_worth > 0]):
@@ -224,8 +224,8 @@ class Game:
         print(f"Fun: {self.fun}%")
         print(f"Health: {self.health}%")
         print(f"Net Worth: ₱{self.net_worth}")
-        print(f"Decisions: {self.decision_counter}")
-        print(f"Score: {self.calculate_score()}\n")
+        print(f"Decisions: {self.decision_counter}\n")
+        print(f"Score: {self.calculate_score()}")
         time.sleep(3)
 
     @staticmethod
