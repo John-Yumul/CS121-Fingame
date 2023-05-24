@@ -26,8 +26,8 @@
 <p> Players are also entrusted with making a variety of financial options, including managing a budget, investing in stocks or mutual funds, and handling debt. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. 👌😮</p>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
+ ### <a name="--purpose"></a>
  ## 🌎Purpose 
-### <a name="--purpose"></a>
 <p align="center">
 	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095327451191722034/SDG.gif?width=2560&height=1080" width="1080"/>
 
@@ -59,8 +59,8 @@
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
-## 🚀Features 
 ### <a name="--features"></a>	
+## 🚀Features 
 <p align="center">
 	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095367395998183514/ezgif-4-a2ebc072b3.gif?width=1000&height=421" width="1080"/>
 
@@ -76,15 +76,16 @@
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
-## 👀Gameplay Preview
 ### <a name="--gameplay-preview"></a>
+## 👀Gameplay Preview
 <p align="center">
 	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/b64c7f92-da32-4f37-af3d-62ee993d78cc"/>
 	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/6ffae42d-fb12-4c75-955b-071c97566b84"/>
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
-## ☎️Meet the Team!
+
 ### <a name="--meet-the-team"></a>
+## ☎️Meet the Team!
 <p align="center"><img src="https://media.discordapp.net/attachments/767703443141427238/1095388816124166225/4R.jpg?width=427&height=640" width="200" height="300" />
 <p align="center">
 Banaag, Vince Clyde S. 
