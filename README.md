@@ -13,9 +13,8 @@
 - [☎️Meet the Team](#--meet-the-team)
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
-	
+### <a name="--about"></a>	
  ## 💡About 
-### <a name="--about"></a>
 <p> Whether we realize it or not, managing our finances is essential to living. 😀💵</p>
 	
 <p> Navigating the financial world may be difficult, especially for people with little experience. Fortunately, some tools and resources can guide and help us improve our financial skills. One such resource is a role-playing game about financial management. 🤔</p>
