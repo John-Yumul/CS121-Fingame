@@ -17,26 +17,11 @@ invalid_sound = pygame.mixer.Sound(r'C:\Users\Admin\Desktop\FinGameCode\SFX\Inva
 pygame.init()
 mixer.music.load(r'C:\Users\Admin\Desktop\FinGameCode\BG\BG.mp3')
 mixer.music.play(-1)
-
-vertical = '\u2551'
-horizontal = '\u2550'
-top_left = '\u2554'
-top_right = '\u2557'
-bottom_left = '\u255a'
-bottom_right = '\u255d'
-
-title = "WELCOME TO THE FINGAME"
-
-terminal_width = shutil.get_terminal_size().columns
-
-spacing = (terminal_width - len(title)) //2
-left_spacing = horizontal * spacing
-right_spacing = horizontal * (terminal_width - len(title) - spacing)
-
-print(f"{top_left}{horizontal * terminal_width}{top_right}")
-print(f"{vertical}{left_spacing}{title}{right_spacing}{vertical}")
-print(f"{bottom_left}{horizontal * terminal_width}{bottom_right}")
-
+with open('C:\\Users\\ACER\\Desktop\\fingame title.txt', "r", encoding="utf8") as f:
+    for line in f:
+        print(line.rstrip())
+    input("Press Enter to read the mechanics.")
+    pass
 
 def create_frame(text):
     lines = text.split('\n')
@@ -50,42 +35,62 @@ def create_frame(text):
     framed_text.append('└' + '─' * (max_length + 2) + '┘')
 
     return '\n'.join(framed_text)
-a = """Here are the mechanics of the game.
+class Mechanics:
+    vertical = '\u2551'
+    horizontal = '\u2550'
+    top_left = '\u2554'
+    top_right = '\u2557'
+    bottom_left = '\u255a'
+    bottom_right = '\u255d'
 
-The main condition of the game is for you to keep your well-being score as high as possible.
-Well-being is about staying robust in various areas of your life.
-You can't affect your well-being score directly. It's based on the scores of these following areas:
+    title = "WELCOME TO THE FINGAME"
 
-> FUN SCORE - this shows you how much fun you're having! You can raise your fun score by eating, doing leisurely
-activities such as watching movies, going to parties, or reading a book. Your choice of exercise and transportation
-can also affect your fun score.
+    terminal_width = shutil.get_terminal_size().columns
 
-> HEALTH SCORE - this is a measure of the condition of your physical health. Exercising and getting an ample amount 
-of physical activity can increase your score in this area. If you don't do move around enough, or if you eat 
-unhealthy food and skip meals, this will either remain stagnant or decrease.
+    spacing = (terminal_width - len(title)) //2
+    left_spacing = horizontal * spacing
+    right_spacing = horizontal * (terminal_width - len(title) - spacing)
 
-> ENERGY SCORE - this goes down whenever you do something that requires a lot of hard work and effort, such 
-as exercising. It is replenished every week, albeit you must not run out of energy or you will lose."""
-framed_text = create_frame(a)
-print(framed_text)
+    print(f"{top_left}{horizontal * terminal_width}{top_right}")
+    print(f"{vertical}{left_spacing}{title}{right_spacing}{vertical}")
+    print(f"{bottom_left}{horizontal * terminal_width}{bottom_right}")
 
-b = """Most things in the game don't come for free! Your balance tells you how much money you have. You must learn
-how to manage it while also keeping your well-being stats in check. Every week, you must make FIVE choices for each 
-of these things:
+    a = """Here are the mechanics of the game.
 
-> FOOD - what you eat
-> LEISURE - how you spend your free time
-> EXERCISE - how you maintain your physical fitness
-> TRANSPORTATION - how you get around"""
-framed_text = create_frame(b)
-print(framed_text)
+    The main condition of the game is for you to keep your well-being score as high as possible.
+    Well-being is about staying robust in various areas of your life.
+    You can't affect your well-being score directly. It's based on the scores of these following areas:
 
-c = """Once you've made all your choices for the week, you get 30 points each for your Energy, Fun, and Health score. Once 
-you've made five decisions each for the span of four weeks, you will get a monthly salary. At the same time, your 
-utility bills will also be deducted from your balance. If you run out of money, or any of your stats drop too low, 
-it's game over! You can quit the game at any time and view your final stats, net worth, and score"""
-framed_text = create_frame(c)
-print(framed_text)
+    > FUN SCORE - this shows you how much fun you're having! You can raise your fun score by eating, doing leisurely
+    activities such as watching movies, going to parties, or reading a book. Your choice of exercise and transportation
+    can also affect your fun score.
+
+    > HEALTH SCORE - this is a measure of the condition of your physical health. Exercising and getting an ample amount 
+    of physical activity can increase your score in this area. If you don't do move around enough, or if you eat 
+    unhealthy food and skip meals, this will either remain stagnant or decrease.
+
+    > ENERGY SCORE - this goes down whenever you do something that requires a lot of hard work and effort, such 
+    as exercising. It is replenished every week, albeit you must not run out of energy or you will lose."""
+    framed_text = create_frame(a)
+    print(framed_text)
+
+    b = """Most things in the game don't come for free! Your balance tells you how much money you have. You must learn
+    how to manage it while also keeping your well-being stats in check. Every week, you must make FIVE choices for each 
+    of these things:
+
+    > FOOD - what you eat
+    > LEISURE - how you spend your free time
+    > EXERCISE - how you maintain your physical fitness
+    > TRANSPORTATION - how you get around"""
+    framed_text = create_frame(b)
+    print(framed_text)
+
+    c = """Once you've made all your choices for the week, you get 30 points each for your Energy, Fun, and Health score. Once 
+    you've made five decisions each for the span of four weeks, you will get a monthly salary. At the same time, your 
+    utility bills will also be deducted from your balance. If you run out of money, or any of your stats drop too low, 
+    it's game over! You can quit the game at any time and view your final stats, net worth, and score"""
+    framed_text = create_frame(c)
+    print(framed_text)
 
 class Game:
     def __init__(self):
