@@ -25,7 +25,7 @@ with open('.\FingameTitle.txt', "r", encoding="utf8") as f:
     pass
 os.system("cls")
 
-def create_frame(text):
+def create_frame(text): # Displays text inside frame
     lines = text.split('\n')
     max_length = max(len(line) for line in lines)
     border = '┌' +'─' * (max_length + 2)+ '┐'
@@ -37,7 +37,7 @@ def create_frame(text):
     framed_text.append('└' + '─' * (max_length + 2) + '┘')
 
     return '\n'.join(framed_text)
-class Mechanics:
+class Mechanics: # Class of the functions for the game mechanics
     vertical = '\u2551'
     horizontal = '\u2550'
     top_left = '\u2554'
@@ -47,7 +47,7 @@ class Mechanics:
 
     title = "WELCOME TO THE FINGAME"
 
-    terminal_width = shutil.get_terminal_size().columns
+    terminal_width = shutil.get_terminal_size().columns # Get size of terminal window
 
     spacing = (terminal_width - len(title)) //2
     left_spacing = horizontal * spacing
@@ -55,7 +55,7 @@ class Mechanics:
 
     print(f"{top_left}{horizontal * terminal_width}{top_right}")
     print(f"{vertical}{left_spacing}{title}{right_spacing}{vertical}")
-    print(f"{bottom_left}{horizontal * terminal_width}{bottom_right}")
+    print(f"{bottom_left}{horizontal * terminal_width}{bottom_right}") # Print title inside frame with respect to terminal window size
 
     a = """Here are the mechanics of the game.
 
@@ -74,7 +74,7 @@ class Mechanics:
     > ENERGY SCORE - this goes down whenever you do something that requires a lot of hard work and effort, such 
     as exercising. It is replenished every week, albeit you must not run out of energy or you will lose."""
     framed_text = create_frame(a)
-    print(framed_text)
+    print(framed_text) # Print 1st part of mechanics inside frame
 
     b = """Most things in the game don't come for free! Your balance tells you how much money you have. You must learn
     how to manage it while also keeping your well-being stats in check. Every week, you must make FIVE choices for each 
@@ -86,14 +86,14 @@ class Mechanics:
     > TRANSPORTATION - how you get around
     > INVESTMENT - how you can put your spare money to work and build wealth"""
     framed_text = create_frame(b)
-    print(framed_text)
+    print(framed_text) # Print 2nd part of mechanics inside frame
 
     c = """Once you've made all your choices for the week, you get 30 points each for your Energy, Fun, and Health score. Once 
     you've made five decisions each for the span of four weeks, you will get a monthly salary. At the same time, your 
     utility bills will also be deducted from your balance. If you run out of money, or any of your stats drop too low, 
     it's game over! You can quit the game at any time and view your final stats, net worth, and score"""
     framed_text = create_frame(c)
-    print(framed_text)
+    print(framed_text) # Print 3rd part of mechanics inside frame
 
 class Game: # Class of the functions of the game logic
     def __init__(self): # Initialize game attributes
