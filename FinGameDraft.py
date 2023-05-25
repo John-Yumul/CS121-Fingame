@@ -7,7 +7,7 @@ from pygame import mixer
 
 os.system("cls")
 
-pygame.mixer.init()
+pygame.mixer.init() # Initialize the sound effects
 start_sound = pygame.mixer.Sound(r'.\SFX\Start.mp3')
 common_sound = pygame.mixer.Sound(r'.\SFX\Common_SFX.mp3')
 game_over_sound = pygame.mixer.Sound(r'.\SFX\Game_Over.mp3')
@@ -15,7 +15,7 @@ week_sound = pygame.mixer.Sound(r'.\SFX\Week.mp3')
 month_sound = pygame.mixer.Sound(r'.\SFX\Month.mp3')
 invalid_sound = pygame.mixer.Sound(r'.\SFX\Invalid.mp3')
 
-pygame.init()
+pygame.init() # Initialize the background music
 mixer.music.load(r'.\BG\BG.mp3')
 mixer.music.play(-1)
 with open('.\FingameTitle.txt', "r", encoding="utf8") as f:
@@ -95,9 +95,8 @@ class Mechanics:
     framed_text = create_frame(c)
     print(framed_text)
 
-class Game:
-    def __init__(self):
-        # Initialize game attributes
+class Game: # Class of the functions of the game logic
+    def __init__(self): # Initialize game attributes
         self.energy, self.fun, self.health = 100, 100, 100
         self.net_worth, self.decision_counter = 20000, 5
         self.week_counter, self.month_counter = 1, 1
@@ -106,7 +105,7 @@ class Game:
     def clear_screen(self):
         os.system("cls" if os.name == "nt" else "clear")
 
-    def print_stats(self):
+    def print_stats(self): # Displays texts and status bar of game attributes
         # Print well-being stats and game information
         print(f"Week {self.week_counter}, Month {self.month_counter}\n")
         print("Well-Being Stats:")
@@ -116,7 +115,7 @@ class Game:
         print(f"\nNet Worth: ₱{self.net_worth}")
         print(f"Decisions: {self.decision_counter}\n")
 
-    def print_status_bar(self, label, value):
+    def print_status_bar(self, label, value): # Function to create status bar
         # Print a status bar for a given stat
         bar_length = 30
         filled_length = int(bar_length * value / 100)
@@ -133,15 +132,15 @@ class Game:
             print(f"\t\t Running Low.")
             invalid_sound.play()
 
-    def print_invalid_choice(self):
+    def print_invalid_choice(self): # Prints invalid choice with SFX
         invalid_sound.play()
         print("Invalid choice!\n")
         self.print_stats()
 
-    def calculate_score(self):
+    def calculate_score(self): # Calculates final score
         return max(0, sum([self.energy, self.fun, self.health, self.net_worth]))
 
-    def handle_task(self, options):
+    def handle_task(self, options): # Handles tasks on presenting new changes on game attributes after choosing an activity
         self.clear_screen()
         self.print_stats()
 
@@ -176,7 +175,7 @@ class Game:
         else:
             self.print_invalid_choice()
 
-        if self.decision_counter == 0:
+        if self.decision_counter == 0:  # Additional to attributes per week
             self.energy = min(self.energy + 30, 100)
             self.fun = min(self.fun + 30, 100)
             self.health = min(self.health + 30, 100)
@@ -186,7 +185,7 @@ class Game:
             print("You receive +30 to your Energy, Fun, and Health.\n")
             self.week_counter += 1
 
-        if self.week_counter == 5:
+        if self.week_counter == 5: # Additional to attrbutes per month
             self.week_counter = 1
             self.month_counter += 1
             self.net_worth -= 8000  # Deduct house bills such as rent, water, electricity, and internet
@@ -202,7 +201,7 @@ class Game:
             input(create_frame(f"Press Enter to Jump into Month {self.month_counter}") + "\n")
             start_sound.play()
 
-    def game_loop(self):
+    def game_loop(self):    # Main menu of the list of activities
         while all([self.energy > 0, self.fun > 0, self.health > 0, self.net_worth > 0]):
             print("Options:")
             print("1. Food")
@@ -232,7 +231,8 @@ class Game:
                 self.print_invalid_choice()
 
         self.clear_screen()
-
+        
+        # Displays game over information
         mixer.music.stop()
         game_over_sound.play()
         print("Game Over!\n")
@@ -248,7 +248,7 @@ class Game:
     def create_options(options):
         return {str(index + 1): option for index, option in enumerate(options)}
 
-    def get_food_options(self):
+    def get_food_options(self): # Attributes of the game tasks for food
         options = [
             {   "name": "Home Cooking",
                 "energy_change": 15,    "fun_change": -10,      "health_change": 10,
@@ -285,7 +285,7 @@ class Game:
         ]
         return self.create_options(options)
 
-    def get_leisure_options(self):
+    def get_leisure_options(self):  # Attributes of the game tasks for leisure
         options = [
             {   "name": "Watch a Movie",
                 "energy_change": -20,   "fun_change": 20,   "health_change": 0,
@@ -310,7 +310,7 @@ class Game:
         ]
         return self.create_options(options)
 
-    def get_exercise_options(self):
+    def get_exercise_options(self): # Attributes of the game tasks for exercise
         options = [
             {   "name": "Run",
                 "energy_change": -20,   "fun_change": 0,   "health_change": 5,
@@ -331,7 +331,7 @@ class Game:
         ]
         return self.create_options(options)
 
-    def get_transportation_options(self):
+    def get_transportation_options(self):   # Attributes of the game tasks for transportation
         options = [
             {   "name": "Walk",
                 "energy_change": -30,   "fun_change": -20,  "health_change": 5,
@@ -356,7 +356,7 @@ class Game:
         ]
         return self.create_options(options)
     
-    def get_investment_options(self):
+    def get_investment_options(self):   # Attributes of the game tasks for investment
         options = [
             {   "name": "Stock (1 unit)",
                 "energy_change": 0,   "fun_change": 0,  "health_change": 0, 
