@@ -80,6 +80,7 @@
 <p align="center">
 	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/b64c7f92-da32-4f37-af3d-62ee993d78cc"/>
 	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/6ffae42d-fb12-4c75-955b-071c97566b84"/>
+	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## 🎥Video Presentation!
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
