@@ -9,7 +9,9 @@
 - [💡About](#--about)
 - [🌎Purpose](#--purpose)
 - [🚀Features](#--features)
+- [🖧UML Diagram](#--uml-diagram)
 - [👀Gameplay Preview](#--gameplay-preview)
+- [🎥Video Presentation](#--video-presentation)
 - [☎️Meet the Team](#--meet-the-team)
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
@@ -74,6 +76,7 @@
 </ul>
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
+### <a name="--uml-diagram"></a>
 ## 🖧UML Diagram
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
@@ -85,6 +88,7 @@
 	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/6ffae42d-fb12-4c75-955b-071c97566b84"/>
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
+### <a name="--video-presentation"></a>
 ## 🎥Video Presentation!
 <p align="center">
 <a href="https://www.youtube.com/"><img src="https://www.freeiconspng.com/uploads/youtube-play-button-logo-icon-14.png" alt="Youtube link" style="width:250px;height:250px;"></a>
