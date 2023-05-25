@@ -38,7 +38,7 @@ def create_frame(text): # Displays text inside frame
 
     return '\n'.join(framed_text)
 class Mechanics: # Class of the functions for the game mechanics
-    vertical = '\u2551'
+    vertical = '\u2551' #attributes for the frame
     horizontal = '\u2550'
     top_left = '\u2554'
     top_right = '\u2557'
