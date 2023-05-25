@@ -93,7 +93,7 @@ The code's UML diagram shows the connections between classes, interfaces, and co
 ## 🎥Video Presentation!
 <p align="center">
 <a href="https://www.youtube.com/watch?v=qIRY558JNA4">
-<img src="https://drive.google.com/file/d/13CAaVAbqfQNFaNg6k3HWaVWSbmbTvd9-/view" alt="Fingame Video Presentation" style="width:42px;height:42px;">
+<img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qlYc7w5PZw8rAIHZydClpZ_6emN54wAZL-mQxTJIdov8SafnPYWd0nimaii7NvOO6TbloNb6t6Hp2urPKdQZWkbb4fZw=s1600" alt="Fingame Video Presentation" style="width:42px;height:42px;">
 </a>
 </p>
 <p>Our video presentation reveals the brilliance behind our code and provides a thorough overview of its features and seamless integration. With enticing imagery and informative explanations, we show how our code enhances functionality, streamlines challenging processes, and ultimately provides users an exceptional digital experience.</p>
