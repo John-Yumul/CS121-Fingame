@@ -2,6 +2,7 @@ import shutil
 import os
 import pygame
 import time
+import random
 from pygame import mixer
 
 os.system("cls")
@@ -164,6 +165,12 @@ class Game:
             print(f"Fun: {option['fun_change']}", end=" ")
             print(f"Health: {option['health_change']}")
             print(f"Cost: -₱{option['cost']}\n")
+            if option['invested'] == True:
+                growth = round(random.uniform(option["lower_range"], option["upper_range"]), 2)
+                print(f"Your investment has grown by ", (growth-1)*100, "%")
+                self.net_worth += (option["cost"]*growth)
+                print('Your net worth is now', self.net_worth)
+
             self.decision_counter -= 1
         else:
             self.print_invalid_choice()
@@ -201,9 +208,10 @@ class Game:
             print("2. Leisure")
             print("3. Exercise")
             print("4. Transportation")
+            print("5. Investment")
             print("0. Quit\n")
 
-            choice = input("Enter your choice (0-4): ")
+            choice = input("Enter your choice (0-5): ")
             self.clear_screen()
     
             option_mapping = {
@@ -211,6 +219,7 @@ class Game:
                 "2": self.get_leisure_options,
                 "3": self.get_exercise_options,
                 "4": self.get_transportation_options,
+                "5": self.get_investment_options,
             }
 
             if choice == "0":
@@ -242,35 +251,35 @@ class Game:
         options = [
             {   "name": "Home Cooking",
                 "energy_change": 15,    "fun_change": -10,      "health_change": 10,
-                "cost": 200,            "message": "Ah, that home-cooked meal was so good.",
+                "cost": 200,            "message": "Ah, that home-cooked meal was so good.", "invested": False,
             },
             {   "name": "Take-Out",
                 "energy_change": 15,    "fun_change": -5,        "health_change": -10,
-                "cost": 500,            "message": "Just had a take-out from a nearest food shop.",
+                "cost": 500,            "message": "Just had a take-out from a nearest food shop.", "invested": False,
             },
             {   "name": "Foodpanda/GrabFood",
                 "energy_change": 15,    "fun_change": 10,       "health_change": -15,
-                "cost": 700,            "message": "The rider is on his way to my doorstep.",
+                "cost": 700,            "message": "The rider is on his way to my doorstep.", "invested": False,
             },
             {   "name": "Fast Food Dine-In",
                 "energy_change": 15,    "fun_change": 15,       "health_change": -20,
-                "cost": 900,            "message": "Just had my favorites chicken and fries.",
+                "cost": 900,            "message": "Just had my favorites chicken and fries.", "invested": False,
             },
             {   "name": "Coffee Shop",
                 "energy_change": 5,     "fun_change": 20,       "health_change": 5,
-                "cost": 300,            "message": "Just had a sipped with my favorite latte.",
+                "cost": 300,            "message": "Just had a sipped with my favorite latte.", "invested": False,
             },
             {   "name": "Quick Snack",  
                 "energy_change": 5,     "fun_change": 0,        "health_change": -5,
-                "cost": 100,            "message": "Just grabbed a bite on my sandwich.",
+                "cost": 100,            "message": "Just grabbed a bite on my sandwich.", "invested": False,
             },
             {   "name": "Fine Dining",
                 "energy_change": 15,    "fun_change": 30,       "health_change": 15,
-                "cost": 1200,           "message": "Went to the fanciest dining place I have ever been.",
+                "cost": 1200,           "message": "Went to the fanciest dining place I have ever been.", "invested": False,
             },
             {   "name": "Skip a meal",
                 "energy_change": -30,   "fun_change": -15,      "health_change": -30,
-                "cost": 0,              "message": "Didn't have the appetite to eat.",
+                "cost": 0,              "message": "Didn't have the appetite to eat.", "invested": False,
             },
         ]
         return self.create_options(options)
@@ -279,23 +288,23 @@ class Game:
         options = [
             {   "name": "Watch a Movie",
                 "energy_change": -20,   "fun_change": 20,   "health_change": 0,
-                "cost": 700,            "message": "Just watched my favorite Disney film.",
+                "cost": 700,            "message": "Just watched my favorite Disney film.", "invested": False,
             },
             {   "name": "Go to a Pool Party",
                 "energy_change": -20,   "fun_change": 30,   "health_change": -10,
-                "cost": 1000,           "message": "Had the best night on the pool.",
+                "cost": 1000,           "message": "Had the best night on the pool.", "invested": False,
             },
             {   "name": "Read a Book",  
                 "energy_change": -5,    "fun_change": 5,    "health_change": 0,
-                "cost": 0,              "message": "Had fun reading Stephanie Mayer's Twilight books.",
+                "cost": 0,              "message": "Had fun reading Stephanie Mayer's Twilight books.", "invested": False,
             },
             {   "name": "Concert",  
                 "energy_change": -40,    "fun_change": 50,  "health_change": -20,
-                "cost": 7000,            "message": "I will never forget my Taylor Swift  | The Eras Tour experience.",
+                "cost": 7000,            "message": "I will never forget my Taylor Swift  | The Eras Tour experience.", "invested": False,
             },
             {   "name": "Casino",  
                 "energy_change": -20,    "fun_change": 20,  "health_change": -5,
-                "cost": 3000,            "message": "Lost a few turns but gave my best bets.",
+                "cost": 3000,            "message": "Lost a few turns but gave my best bets.", "invested": False,
             },
         ]
         return self.create_options(options)
@@ -304,19 +313,19 @@ class Game:
         options = [
             {   "name": "Run",
                 "energy_change": -20,   "fun_change": 0,   "health_change": 5,
-                "cost": 0,              "message": "Had a few laps around the block.",
+                "cost": 0,              "message": "Had a few laps around the block.", "invested": False,
             },
             {   "name": "Yoga",
                 "energy_change": -10,   "fun_change": 5,   "health_change": 10,
-                "cost": 100,            "message": "Felt focused more than ever.",
+                "cost": 100,            "message": "Felt focused more than ever.", "invested": False,
             },
             {   "name": "Home Workout",
                 "energy_change": -30,   "fun_change": -10,  "health_change": 20,
-                "cost": 500,            "message": "Just had a workout at my own space.",
+                "cost": 500,            "message": "Just had a workout at my own space.", "invested": False,
             },
             {   "name": "Gym",
                 "energy_change": -40,   "fun_change": 10,  "health_change": 30,
-                "cost": 1500,           "message": "I'm ready to get the muscles bigger.",
+                "cost": 1500,           "message": "I'm ready to get the muscles bigger.", "invested": False,
             },
         ]
         return self.create_options(options)
@@ -325,25 +334,51 @@ class Game:
         options = [
             {   "name": "Walk",
                 "energy_change": -30,   "fun_change": -20,  "health_change": 5,
-                "cost": 0,              "message": "Had a tiring walk from home to work.",
+                "cost": 0,              "message": "Had a tiring walk from home to work.", "invested": False,
             },
             {   "name": "Bike",
                 "energy_change": -20,   "fun_change": 5,    "health_change": 10,
-                "cost": 0,              "message": "Almost got my pedals broken, but I arrived at my place.",
+                "cost": 0,              "message": "Almost got my pedals broken, but I arrived at my place.", "invested": False,
             },
             {   "name": "Public Transportation",
                 "energy_change": -10,   "fun_change": -10,  "health_change": -5,
-                "cost": 300,            "message": "Just rode a Jeepney to Trinoma.",
+                "cost": 300,            "message": "Just rode a Jeepney to Trinoma.", "invested": False,
             },
             {   "name": "Grab/Angkas",
                 "energy_change": 0,     "fun_change": 10,   "health_change": 0,
-                "cost": 600,            "message": "Almost had my ride taken by other people.",
+                "cost": 600,            "message": "Almost had my ride taken by other people.", "invested": False,
             },
             {   "name": "Car",
                 "energy_change": -5,    "fun_change": 5,    "health_change": 0,
-                "cost": 1000,           "message": "Rode my own car to my work.",
+                "cost": 1000,           "message": "Rode my own car to my work.", "invested": False,
             },
         ]
+        return self.create_options(options)
+    
+    def get_investment_options(self):
+        options = [
+            {   "name": "Stock (1 unit)",
+                "energy_change": 0,   "fun_change": 0,  "health_change": 0, 
+                "cost": 1000,              "message": "You invested in the stock market index!", "invested": True,
+                "lower_range" : 0.945, "upper_range" : 1.05,
+            },
+            {   "name": "Stock (10 units)",
+                "energy_change": 0,   "fun_change": 0,  "health_change": 0, 
+                "cost": 10000,              "message": "You invested in the stock market index!", "invested": True,
+                "lower_range" : 0.945, "upper_range" : 1.05,
+            },
+            {   "name": "Crypto (1 unit)",
+                "energy_change": 0,   "fun_change": 0,  "health_change": 0, 
+                "cost": 1000,              "message": "You invested in a variety of cryptocurrencies", "invested": True,
+                "lower_range" : 0.73, "upper_range" : 1.20,
+            },
+            {   "name": "Crypto (10 units)",
+                "energy_change": 0,   "fun_change": 0,  "health_change": 0, 
+                "cost": 10000,              "message": "You invested in a variety of cryptocurrencies", "invested": True,
+                "lower_range" : 0.73, "upper_range" : 1.20,
+            }
+        ]
+
         return self.create_options(options)
     
 start = input(create_frame("Press Enter to start the game.") + "\n")
