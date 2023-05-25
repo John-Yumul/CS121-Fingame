@@ -93,7 +93,7 @@ The code's UML diagram shows the connections between classes, interfaces, and co
 ## 🎥Video Presentation!
 <p align="center">
 <a href="https://www.youtube.com/watch?v=qIRY558JNA4">
-<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/d3458995-34e0-40ea-b0d8-68041b5f593f"/>
+<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/5cd19400-116d-4e6c-a54d-14444996e288"/>
 </a>
 </p>
 <p>Our video presentation reveals the brilliance behind our code and provides a thorough overview of its features and seamless integration. With enticing imagery and informative explanations, we show how our code enhances functionality, streamlines challenging processes, and ultimately provides users an exceptional digital experience.</p>
