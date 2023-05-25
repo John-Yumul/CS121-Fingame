@@ -102,19 +102,19 @@ The code's UML diagram shows the connections between classes, interfaces, and co
 	
 <b>Timestamps</b>
 <ul>
-	0:00 - Start
-	0:19 - Content
-	0:41 - Motivation
-	1:34 - Objective
-	2:35 - Sustainable Development Goals (SDG)
-	3:48 - Features
-	5:00 - Gameplay and Program Interpretation
-	5:00 - Main Menu and Mechanics
-	5:23 - Main Game
-	8:49 - Pygame Integration
-	9:18 - Error Handling
-	9:52 - Recommendations
-	11:07 - Ending
+	<li>0:00 - Start</li>
+	<li>0:19 - Content</li>
+	<li>0:41 - Motivation</li>
+	<li>1:34 - Objective</li>
+	<li>2:35 - Sustainable Development Goals (SDG)</li>
+	<li>3:48 - Features</li>
+	<li>5:00 - Gameplay and Program Interpretation</li>
+	<li>5:00 - Main Menu and Mechanics</li>
+	<li>5:23 - Main Game</li>
+	<li>8:49 - Pygame Integration</li>
+	<li>9:18 - Error Handling</li>
+	<li>9:52 - Recommendations</li>
+	<li>11:07 - Ending</li>
 </ul>
 </p>
 
