@@ -82,7 +82,6 @@
 	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/6ffae42d-fb12-4c75-955b-071c97566b84"/>
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## 🎥Video Presentation!
-	<a href="youtube.com"><img src="https://banner2.cleanpng.com/20180320/zoq/kisspng-youtube-play-button-computer-icons-clip-art-youtube-play-button-icon-5ab1be1a343052.3864849415215979782138.jpg" alt="HTML tutorial" style="width:800px;height:500px;"></a>
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
 ### <a name="--meet-the-team"></a>
