@@ -72,6 +72,9 @@
   <li>❔ <b>Probability-Based Outcomes in Gameplay</b> - Financial decisions of a user affects well-being stats </li>
   <li>❌ <b>Common Error Handling</b> - Prevents logical errors and handles incorrect user input to prevent program termination and failure.</li>
 </ul>
+	
+![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
+## 🖧UML Diagram
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
