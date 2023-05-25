@@ -1,8 +1,8 @@
 <p align="center">
 	<img src="https://media.discordapp.net/attachments/767703443141427238/1095386105781690429/People_Dollar_logo_Money_Finances_logo.png"/>
   
->  <center>"An investment in knowledge pays the best interest." </center>
-	><right>-- Benjamin Franklin <br></right>
+>  <h1>"An investment in knowledge pays the best interest." </h1>
+> <p align="right">-- Benjamin Franklin <br></p>
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## Table of Contents	
