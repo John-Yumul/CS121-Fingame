@@ -23,7 +23,7 @@
   
 <p> This financial management role-playing game's primary goal is to instruct players on how to handle their money wisely. As the game begins, players will be given a specified amount of money and are given tasks that will challenge their critical thinking and decision-making skills. 💭</p>
 	
-<p> Players are also entrusted with making a variety of financial options, including managing a budget, investing in stocks or mutual funds, and handling debt. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. 👌😮</p>
+<p> Players are also entrusted with making a variety of financial options, including managing a budget and investing in stocks or crypto. The game provides feedback on these decisions to help players understand, learn and comprehend the effects of their choices. 👌😮</p>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
  ### <a name="--purpose"></a>
