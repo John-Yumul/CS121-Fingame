@@ -79,6 +79,7 @@
 ### <a name="--uml-diagram"></a>
 ## 🖧UML Diagram
 The code's UML diagram shows the connections between classes, interfaces, and components. It acts as an outline to enable a deeper understanding of the codebase, identify critical components, and facilitate efficient collaboration during software development.
+<a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pCUqaEk_s8aS0mpJlnUX8Dbi90_5UdHDuxXT24_BlJMhb6J96NYvwj1wZIfxWjUGWTIJZrCDiWdSh8UeArvSv9Utwabw=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pCUqaEk_s8aS0mpJlnUX8Dbi90_5UdHDuxXT24_BlJMhb6J96NYvwj1wZIfxWjUGWTIJZrCDiWdSh8UeArvSv9Utwabw=s2560" /> </a>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
