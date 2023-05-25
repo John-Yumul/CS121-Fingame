@@ -65,13 +65,12 @@
 	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095367395998183514/ezgif-4-a2ebc072b3.gif?width=1000&height=421" width="1080"/>
 
 <ul>
-  <li>🏦 <b>Balance</b> - Monetary value a user can earn, spend, and borrow in-game</li>
+  <li>🏦 <b>Balance</b> - Monetary value a user can earn and spend in-game</li>
   <li>💊 <b>Well-Being Stats</b> - Aspects like energy, health, and fun need to be maintained every week otherwise will result in losing condition</li>
-  <li>💰 <b>Investments</b> - User learns to handle stocks, cryptocurrency, mutual funds, health insurance, and more with varying risks and perks </li>
+  <li>💰 <b>Investments</b> - User learns to handle stocks and cryptocurrency with varying risks and perks </li>
   <li>🍴 <b>In-Game Miscellaneous Activities</b> - User can expend the in-game currency for food, leisure, exercise, and transportation which will affect well-being stats.</li>
   <li>❔ <b>Probability-Based Outcomes in Gameplay</b> - Financial decisions of a user affects well-being stats </li>
   <li>❌ <b>Common Error Handling</b> - Prevents logical errors and handles incorrect user input to prevent program termination and failure.</li>
-  <li>😏 <b>More to be added soon!</b> </li>
 </ul>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
