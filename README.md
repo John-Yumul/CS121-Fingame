@@ -83,9 +83,9 @@
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ## 🎥Video Presentation!
-
-<a href="https://www.youtube.com/"><img src="https://www.freeiconspng.com/uploads/youtube-play-button-logo-icon-14.png" alt="Youtube link" style="width:500px;height:500px;"></a>
-	
+<p align="center">
+<a href="https://www.youtube.com/"><img src="https://www.freeiconspng.com/uploads/youtube-play-button-logo-icon-14.png" alt="Youtube link" style="width:300px;height:300px;"></a>
+</p>
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
 ### <a name="--meet-the-team"></a>
