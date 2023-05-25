@@ -88,8 +88,10 @@ The code's UML diagram shows the connections between classes, interfaces, and co
 ### <a name="--gameplay-preview"></a>
 ## 👀Gameplay Preview
 <p align="center">
-	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/b64c7f92-da32-4f37-af3d-62ee993d78cc"/>
-	<img src="https://github.com/John-Yumul/CS121-Fingame/assets/124108325/6ffae42d-fb12-4c75-955b-071c97566b84"/>
+	<img src="https://media.discordapp.net/attachments/1095310400268009495/1111147362090487838/Preview_1.png?width=600&height=606"/>
+	<img src="https://media.discordapp.net/attachments/1095310400268009495/1111147362367328296/Preview_2.png?width=600&height=606"/>
+	<img src="https://media.discordapp.net/attachments/1095310400268009495/1111147362635759676/Preview_3.png?width=600&height=606"/>
+	<img src="https://media.discordapp.net/attachments/1095310400268009495/1111147362908393472/Preview_4.png?width=600&height=606"/>
 	
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 ### <a name="--video-presentation"></a>
