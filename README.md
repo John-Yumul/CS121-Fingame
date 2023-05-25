@@ -62,7 +62,7 @@
 ### <a name="--features"></a>	
 ## 🚀Features 
 <p align="center">
-	<img src="https://media.discordapp.net/attachments/1095310400268009495/1095367395998183514/ezgif-4-a2ebc072b3.gif?width=1000&height=421" width="1080"/>
+	<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/124108325/240777927-7ba7211f-dc11-4ff8-a44e-8bacad8c1e5a.gif" width="1080"/>
 
 <ul>
   <li>🏦 <b>Balance</b> - Monetary value a user can earn and spend in-game</li>
