@@ -98,7 +98,24 @@ The code's UML diagram shows the connections between classes, interfaces, and co
 <p align="center">
 <a href="https://www.youtube.com/watch?v=qIRY558JNA4"><img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81ry5OVAsaRlt15hpJqwbKw56gMaAN8DoKUhf4nId8NmK1b5jOLCvZWvfd9dV8mwFWPROyO8pSW8HuwCmqFyfXSheHi4=s1600" alt="Fingame Video Presentation" style="width:100%;height:100%;"></a>
 </p>
-<p>Our video presentation reveals the brilliance behind our code and provides a thorough overview of its features and seamless integration. With enticing imagery and informative explanations, we show how our code enhances functionality, streamlines challenging processes, and ultimately provides users an exceptional digital experience.</p>
+<p>Our video presentation reveals the brilliance behind our code and provides a thorough overview of its features and seamless integration. With enticing imagery and informative explanations, we show how our code enhances functionality, streamlines challenging processes, and ultimately provides users an exceptional digital experience.
+	
+<b>Timestamps</b>
+0:00 - Start
+0:19 - Content
+0:41 - Motivation
+1:34 - Objective
+2:35 - Sustainable Development Goals (SDG)
+3:48 - Features
+5:00 - Gameplay and Program Interpretation
+5:00 - Main Menu and Mechanics
+5:23 - Main Game
+8:49 - Pygame Integration
+9:18 - Error Handling
+9:52 - Recommendations
+11:07 - Ending
+
+</p>
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/120115162/228392342-69a82c70-fed2-40ac-a522-b5d251b9d489.png)
 
