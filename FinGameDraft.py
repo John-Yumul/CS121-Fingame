@@ -83,7 +83,8 @@ class Mechanics:
     > FOOD - what you eat
     > LEISURE - how you spend your free time
     > EXERCISE - how you maintain your physical fitness
-    > TRANSPORTATION - how you get around"""
+    > TRANSPORTATION - how you get around
+    > INVESTMENT - how you can put your spare money to work and build wealth"""
     framed_text = create_frame(b)
     print(framed_text)
 
